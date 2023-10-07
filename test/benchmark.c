@@ -48,75 +48,29 @@ void test()
 
     read_op(0x1694, 0, output, 2048);
 
-
     clear_all_blocks();
 }
 
-double latency_read(uint32_t read_cnt)
+void energy_consumption_read_write(uint32_t rw_cnt)
 {
-    uint32_t elapsed_time = 0;
-
     set_input();
 
     uint32_t i;
-    uint32_t st, ed;
 
-    for (i = 0; i < read_cnt; ++i)
-    {
-        write_op(i, 0, input, 2048);
-        st = get_current_tick();
-        read_op(i, 0, output, 2048);
-        ed = get_current_tick();
-        elapsed_time += (ed - st);
-        volatile int rrr = validate(input, output, 2048);
-        if (rrr != (uint16_t)-1)
-            printf("READ ERROR: %d %d\n", i, rrr);
-    }
+    // Set breakpoint 1 here
 
-    return get_elasped_time(0, elapsed_time, 8000000);
-}
+    volatile uint8_t dummy1 = 123; // for breakpoint
 
-double latency_write(uint32_t write_cnt)
-{
-    uint32_t elapsed_time = 0;
+    for (i = 0; i < rw_cnt; ++i)
+        write_op(i, 0, input, PAGE_SIZE);
 
-    set_input();
+    // Set breakpoint 2 here
 
-    uint32_t i;
-    uint32_t st,ed;
+    volatile uint8_t dummy2 = 123; // for breakpoint
 
-    for (i = 0; i < write_cnt; ++i)
-    {
-        st = get_current_tick();
-        write_op(i, 0, input, 2048);
-        ed = get_current_tick();
-        elapsed_time += (ed - st);
-        read_op(i, 0, output, 2048);
-        if (validate(input, output, 2048) != (uint16_t)-1)
-            printf("WRITE ERROR: %d\n", i);
-    }
+    for (i = 0; i < rw_cnt; ++i)
+        read_op(i, 0, output, PAGE_SIZE);
 
-    return get_elasped_time(0, elapsed_time, 8000000);
-}
-
-double latency_erase(uint32_t erase_cnt)
-{
-    uint32_t elapsed_time = 0;
-
-    set_input();
-
-    uint32_t i, j;
-    uint32_t st, ed;
-
-    for (i = 0; i < erase_cnt; ++i)
-    {
-        for (j = 0; j < 64; ++j)
-            write_op((i<<6)+j, 0, input, 2048);
-        st = get_current_tick();
-        erase_op((i<<6));
-        ed = get_current_tick();
-        elapsed_time += (ed - st);
-    }
-
-    return get_elasped_time(0, elapsed_time, 8000000);
+    // Set breakpoint 3 here
+    return;
 }

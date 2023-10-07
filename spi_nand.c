@@ -200,8 +200,8 @@ int spi_nand_init()
     unlock_block();
     clear_all_blocks();
 
-    enable_ecc();
-//    disable_ecc();
+//     enable_ecc();
+   disable_ecc();
 
     return 0;
 }

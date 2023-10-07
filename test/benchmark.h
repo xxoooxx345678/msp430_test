@@ -5,10 +5,6 @@
 
 void test();
 
-double latency_read(uint32_t read_cnt);
-
-double latency_write(uint32_t write_cnt);
-
-double latency_erase(uint32_t erase_cnt);
+void energy_consumption_read_write(uint32_t read_cnt);
 
 #endif
