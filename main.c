@@ -56,7 +56,6 @@ functionality in an interrupt. */
 /* TI includes. */
 #include "driverlib.h"
 #include <stdio.h>
-#include "checkpoint.h"
 #include "my_timer.h"
 
 
@@ -105,16 +104,9 @@ uint8_t backuped = 0;
 int main( void )
 {
 	/* See http://www.FreeRTOS.org/MSP430FR5969_Free_RTOS_Demo.html */
+	prvSetupHardware();
 	__enable_interrupt();
 	timer_init();
-	prvSetupHardware();
-    if (backuped == 1)
-    {
-        printf("restore\n\n");
-		restore_nand();
-        restore();
-
-    }
 	timer_start();
 	/* Configure the hardware ready to run the demo. */
 

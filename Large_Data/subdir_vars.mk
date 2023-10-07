@@ -11,7 +11,6 @@ ASM_SRCS += \
 
 C_SRCS += \
 ../LEDs.c \
-../checkpoint.c \
 ../main.c \
 ../my_timer.c \
 ../printf-stdarg.c \
@@ -20,7 +19,6 @@ C_SRCS += \
 
 C_DEPS += \
 ./LEDs.d \
-./checkpoint.d \
 ./main.d \
 ./my_timer.d \
 ./printf-stdarg.d \
@@ -30,7 +28,6 @@ C_DEPS += \
 OBJS += \
 ./LEDs.obj \
 ./backup.obj \
-./checkpoint.obj \
 ./main.obj \
 ./my_timer.obj \
 ./printf-stdarg.obj \
@@ -43,7 +40,6 @@ ASM_DEPS += \
 OBJS__QUOTED += \
 "LEDs.obj" \
 "backup.obj" \
-"checkpoint.obj" \
 "main.obj" \
 "my_timer.obj" \
 "printf-stdarg.obj" \
@@ -52,7 +48,6 @@ OBJS__QUOTED += \
 
 C_DEPS__QUOTED += \
 "LEDs.d" \
-"checkpoint.d" \
 "main.d" \
 "my_timer.d" \
 "printf-stdarg.d" \
@@ -64,7 +59,6 @@ ASM_DEPS__QUOTED += \
 
 C_SRCS__QUOTED += \
 "../LEDs.c" \
-"../checkpoint.c" \
 "../main.c" \
 "../my_timer.c" \
 "../printf-stdarg.c" \

@@ -65,7 +65,6 @@ main.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR
 main.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/driverlib/MSP430FR5xx_6xx/wdt_a.h
 main.obj: /home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdio.h
 main.obj: /home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdarg.h
-main.obj: ../checkpoint.h
 main.obj: ../my_timer.h
 
 ../main.c:
@@ -197,8 +196,6 @@ main.obj: ../my_timer.h
 /home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdio.h:
 
 /home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdarg.h:
-
-../checkpoint.h:
 
 ../my_timer.h:
 
