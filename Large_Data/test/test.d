@@ -27,10 +27,9 @@ test/test.obj: /home/test/ti/ccs1040/ccs/ccs_base/msp430/include/legacy.h
 test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/include/mpu_wrappers.h
 test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/include/task.h
 test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/include/list.h
-test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/checkpoint.h
-test/test.obj: /home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdio.h
-test/test.obj: /home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdarg.h
-test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/spi_nand.h
+test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/include/semphr.h
+test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/include/queue.h
+test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/Common/include/partest.h
 
 ../test/test.c:
 
@@ -86,11 +85,9 @@ test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP
 
 /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/include/list.h:
 
-/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/checkpoint.h:
+/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/include/semphr.h:
 
-/home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdio.h:
+/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/include/queue.h:
 
-/home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdarg.h:
-
-/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/spi_nand.h:
+/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/Common/include/partest.h:
 

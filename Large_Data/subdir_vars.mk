@@ -11,28 +11,19 @@ ASM_SRCS += \
 
 C_SRCS += \
 ../LEDs.c \
-../checkpoint.c \
 ../main.c \
-../printf-stdarg.c \
-../spi.c \
-../spi_nand.c 
+../printf-stdarg.c 
 
 C_DEPS += \
 ./LEDs.d \
-./checkpoint.d \
 ./main.d \
-./printf-stdarg.d \
-./spi.d \
-./spi_nand.d 
+./printf-stdarg.d 
 
 OBJS += \
 ./LEDs.obj \
 ./backup.obj \
-./checkpoint.obj \
 ./main.obj \
-./printf-stdarg.obj \
-./spi.obj \
-./spi_nand.obj 
+./printf-stdarg.obj 
 
 ASM_DEPS += \
 ./backup.d 
@@ -40,30 +31,21 @@ ASM_DEPS += \
 OBJS__QUOTED += \
 "LEDs.obj" \
 "backup.obj" \
-"checkpoint.obj" \
 "main.obj" \
-"printf-stdarg.obj" \
-"spi.obj" \
-"spi_nand.obj" 
+"printf-stdarg.obj" 
 
 C_DEPS__QUOTED += \
 "LEDs.d" \
-"checkpoint.d" \
 "main.d" \
-"printf-stdarg.d" \
-"spi.d" \
-"spi_nand.d" 
+"printf-stdarg.d" 
 
 ASM_DEPS__QUOTED += \
 "backup.d" 
 
 C_SRCS__QUOTED += \
 "../LEDs.c" \
-"../checkpoint.c" \
 "../main.c" \
-"../printf-stdarg.c" \
-"../spi.c" \
-"../spi_nand.c" 
+"../printf-stdarg.c" 
 
 ASM_SRCS__QUOTED += \
 "../backup.asm" 
