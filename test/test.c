@@ -16,6 +16,8 @@ uint8_t undo_log_ptr = 0;
 #pragma NOINIT(output)
 uint8_t input[2048] = {0};
 uint8_t output[2048];
+static void set_input(int key);
+
 
 void test_main(void);
 static void test_print(void *pvParameters);
@@ -23,18 +25,12 @@ static void test_nand(void *pvParameters);
 
 void test_main(void)
 {
-    extern char __bss__, __bssEnd__, __stack__, __stackEnd__;
-    printf("__BSS__: %x\n", _symval(&__bss__));
-    printf("__BSSend__: %x\n", _symval(&__bssEnd__));
-    printf("__stack__: %x\n", _symval(&__stack__));
-    printf("__stackEnd__: %x\n", _symval(&__stackEnd__));
-    
-   xTaskCreate( test_nand, "test", 512, NULL, tskIDLE_PRIORITY + 1, NULL );
+    xTaskCreate(test_nand, "test", 512, NULL, tskIDLE_PRIORITY + 1, NULL);
 
-   vTaskStartScheduler();
+    vTaskStartScheduler();
 
-//      test_print(NULL);
-//    test_nand(NULL);
+    //      test_print(NULL);
+    //    test_nand(NULL);
 }
 
 static void test_print(void *pvParameters)

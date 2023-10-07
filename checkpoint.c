@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <string.h>
 #include "spi_nand.h"
+#include "driverlib.h"
+#include "my_timer.h"
 
 extern uint8_t backuped;
 
@@ -24,39 +26,38 @@ extern uint8_t ucHeap[configTOTAL_HEAP_SIZE];
 extern uint32_t undo_log[128];
 extern uint8_t undo_log_ptr;
 
+#pragma PERSISTENT(dma_param)
+DMA_initParam dma_param = {0};
+
+void DMA_transfer(uint8_t *src, uint8_t *dst, size_t size)
+{
+    dma_param.channelSelect = DMA_CHANNEL_0;
+    dma_param.transferModeSelect = DMA_TRANSFER_BLOCK;
+    dma_param.transferUnitSelect = DMA_SIZE_SRCWORD_DSTWORD;
+    DMA_init(&dma_param);
+
+    DMA_setTransferSize(dma_param.channelSelect, size / 2); // Byte -> Word
+    DMA_setSrcAddress(dma_param.channelSelect, (uint32_t)src, DMA_DIRECTION_INCREMENT);
+    DMA_setDstAddress(dma_param.channelSelect, (uint32_t)dst, DMA_DIRECTION_INCREMENT);
+    DMA_enableTransfers(dma_param.channelSelect);
+
+    DMA_startTransfer(dma_param.channelSelect);
+}
+
 void vPortBackup()
 {
     backuped = 1;
 
-//    __data20_write_long((uintptr_t)&DMA0SA, (uintptr_t)ucHeap);      // Source block address
-//    __data20_write_long((uintptr_t)&DMA0DA, (uintptr_t)heap_buffer); // Destination single address
-//    DMA0SZ = configTOTAL_HEAP_SIZE / 2;                              // Block size
-//    DMA0CTL = DMADT_1 | DMASRCINCR_3 | DMADSTINCR_3;                 // | DMADSTBYTE_1 | DMASRCBYTE_1; // Rpt, inc
-//    DMA0CTL |= DMAEN;                                                // Enable DMA0
-//    DMA0CTL |= DMAREQ;                                               // Trigger block transfer
-
-
-
     extern void vPortBackupASM(void);
     vPortBackupASM();
-    
-    uint32_t i;
-    for (i = 0; i < configTOTAL_HEAP_SIZE; ++i)
-        heap_buffer[i] = ucHeap[i];
+
+    DMA_transfer(ucHeap, heap_buffer, configTOTAL_HEAP_SIZE);
+    return;
 }
 
 void vPortRestore()
 {
-//    __data20_write_long((uintptr_t)&DMA0SA, (uintptr_t)heap_buffer); // Source block address
-//    __data20_write_long((uintptr_t)&DMA0DA, (uintptr_t)ucHeap);      // Destination single address
-//    DMA0SZ = configTOTAL_HEAP_SIZE / 2;                              // Block size
-//    DMA0CTL = DMADT_1 | DMASRCINCR_3 | DMADSTINCR_3;                 // | DMADSTBYTE_1 | DMASRCBYTE_1; // Rpt, inc
-//    DMA0CTL |= DMAEN;                                                // Enable DMA0
-//    DMA0CTL |= DMAREQ;                                               // Trigger block transfer
-
-    uint32_t i;
-    for (i = 0; i < configTOTAL_HEAP_SIZE; ++i)
-        ucHeap[i] = heap_buffer[i];
+    DMA_transfer(heap_buffer, ucHeap, configTOTAL_HEAP_SIZE);
 
     extern void vPortRestoreASM(void);
     vPortRestoreASM();

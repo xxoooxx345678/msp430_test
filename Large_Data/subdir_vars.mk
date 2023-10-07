@@ -13,6 +13,7 @@ C_SRCS += \
 ../LEDs.c \
 ../checkpoint.c \
 ../main.c \
+../my_timer.c \
 ../printf-stdarg.c \
 ../spi.c \
 ../spi_nand.c 
@@ -21,6 +22,7 @@ C_DEPS += \
 ./LEDs.d \
 ./checkpoint.d \
 ./main.d \
+./my_timer.d \
 ./printf-stdarg.d \
 ./spi.d \
 ./spi_nand.d 
@@ -30,6 +32,7 @@ OBJS += \
 ./backup.obj \
 ./checkpoint.obj \
 ./main.obj \
+./my_timer.obj \
 ./printf-stdarg.obj \
 ./spi.obj \
 ./spi_nand.obj 
@@ -42,6 +45,7 @@ OBJS__QUOTED += \
 "backup.obj" \
 "checkpoint.obj" \
 "main.obj" \
+"my_timer.obj" \
 "printf-stdarg.obj" \
 "spi.obj" \
 "spi_nand.obj" 
@@ -50,6 +54,7 @@ C_DEPS__QUOTED += \
 "LEDs.d" \
 "checkpoint.d" \
 "main.d" \
+"my_timer.d" \
 "printf-stdarg.d" \
 "spi.d" \
 "spi_nand.d" 
@@ -61,6 +66,7 @@ C_SRCS__QUOTED += \
 "../LEDs.c" \
 "../checkpoint.c" \
 "../main.c" \
+"../my_timer.c" \
 "../printf-stdarg.c" \
 "../spi.c" \
 "../spi_nand.c" 

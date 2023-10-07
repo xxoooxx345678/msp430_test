@@ -57,6 +57,7 @@ functionality in an interrupt. */
 #include "driverlib.h"
 #include <stdio.h>
 #include "checkpoint.h"
+#include "my_timer.h"
 
 
 /* Set mainCREATE_SIMPLE_BLINKY_DEMO_ONLY to one to run the simple blinky demo,
@@ -104,6 +105,8 @@ uint8_t backuped = 0;
 int main( void )
 {
 	/* See http://www.FreeRTOS.org/MSP430FR5969_Free_RTOS_Demo.html */
+	__enable_interrupt();
+	timer_init();
 	prvSetupHardware();
     if (backuped == 1)
     {
@@ -112,6 +115,7 @@ int main( void )
         restore();
 
     }
+	timer_start();
 	/* Configure the hardware ready to run the demo. */
 
 	/* The mainCREATE_SIMPLE_BLINKY_DEMO_ONLY setting is described at the top
