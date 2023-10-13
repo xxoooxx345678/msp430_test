@@ -31,6 +31,7 @@ test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP
 test/test.obj: /home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdio.h
 test/test.obj: /home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdarg.h
 test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/spi_nand.h
+test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/config.h
 
 ../test/test.c:
 
@@ -93,4 +94,6 @@ test/test.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP
 /home/test/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include/stdarg.h:
 
 /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/spi_nand.h:
+
+/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/config.h:
 

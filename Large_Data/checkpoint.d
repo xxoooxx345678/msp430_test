@@ -64,6 +64,7 @@ checkpoint.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MS
 checkpoint.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/driverlib/MSP430FR5xx_6xx/tlv.h
 checkpoint.obj: /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/driverlib/MSP430FR5xx_6xx/wdt_a.h
 checkpoint.obj: ../my_timer.h
+checkpoint.obj: ../config.h
 
 ../checkpoint.c:
 
@@ -192,4 +193,6 @@ checkpoint.obj: ../my_timer.h
 /home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Demo/MSP430X_MSP430FR5969_LaunchPad_IAR_CCS/driverlib/MSP430FR5xx_6xx/wdt_a.h:
 
 ../my_timer.h:
+
+../config.h:
 

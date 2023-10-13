@@ -3,8 +3,7 @@
 #include "checkpoint.h"
 #include <stdio.h>
 #include "spi_nand.h"
-
-// #define WITH_NAND_FLASH
+#include "config.h"
 
 #pragma PERSISTENT(shutdown_test)
 uint8_t shutdown_test = 3;

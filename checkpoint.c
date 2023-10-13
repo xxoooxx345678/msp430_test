@@ -5,6 +5,7 @@
 #include "spi_nand.h"
 #include "driverlib.h"
 #include "my_timer.h"
+#include "config.h"
 
 extern uint8_t backuped;
 
@@ -17,8 +18,7 @@ uint32_t pc_buffer;
 uint32_t sp_buffer;
 uint32_t ret_buffer;
 
-#pragma PERSISTENT(backup_buffer)
-uint8_t backup_buffer[1024 * 8] = {0};
+
 #pragma PERSISTENT(heap_buffer)
 uint8_t heap_buffer[configTOTAL_HEAP_SIZE] = {0};
 extern uint8_t ucHeap[configTOTAL_HEAP_SIZE];
@@ -48,16 +48,32 @@ void vPortBackup()
 {
     backuped = 1;
 
+    volatile uint32_t st, ed;
+
+
     extern void vPortBackupASM(void);
     vPortBackupASM();
+    st = get_current_tick();
 
+#ifdef UCHEAP_SHRINK
+    DMA_transfer(ucHeap, heap_buffer, UCHEAP_SHRINKED_BACKUP_SIZE);
+#else
     DMA_transfer(ucHeap, heap_buffer, configTOTAL_HEAP_SIZE);
+#endif
+
+    ed = get_current_tick();
+    volatile double elapsed_time = ((double)(ed - st)) / 8000000;
+
     return;
 }
 
 void vPortRestore()
 {
+#ifdef UCHEAP_SHRINK
+    DMA_transfer(heap_buffer, ucHeap, UCHEAP_SHRINKED_BACKUP_SIZE);
+#else
     DMA_transfer(heap_buffer, ucHeap, configTOTAL_HEAP_SIZE);
+#endif
 
     extern void vPortRestoreASM(void);
     vPortRestoreASM();
