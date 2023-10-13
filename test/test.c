@@ -4,7 +4,7 @@
 #include <stdio.h>
 #include "spi_nand.h"
 
-#define WITH_NAND_FLASH
+// #define WITH_NAND_FLASH
 
 #pragma PERSISTENT(shutdown_test)
 uint8_t shutdown_test = 3;
@@ -29,7 +29,7 @@ void test_main(void)
 {
 #ifdef WITH_NAND_FLASH
     xTaskCreate(test_nand, "test", 512, NULL, tskIDLE_PRIORITY + 1, NULL);
-#elif
+#else
     xTaskCreate(test_print, "test", 512, NULL, tskIDLE_PRIORITY + 1, NULL);
 #endif
 
