@@ -111,9 +111,7 @@ int main( void )
     if (backuped == 1)
     {
         printf("restore\n\n");
-		restore_nand();
         restore();
-
     }
 	timer_start();
 	/* Configure the hardware ready to run the demo. */

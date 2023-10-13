@@ -71,12 +71,16 @@ void vPortShutdown()
 
 void checkpoint()
 {
+#ifdef WITH_NAND_FLASH
+    checkpoint_nand();
+#endif
+
     portENTER_CRITICAL();
     vPortBackup();
     portEXIT_CRITICAL();
 }
 
-void checkpoint_nand()
+static void checkpoint_nand()
 {
     // int i;
     // for (i = 0; i < undo_log_ptr; ++i)
@@ -86,12 +90,16 @@ void checkpoint_nand()
 
 void restore()
 {
+#ifdef WITH_NAND_FLASH
+    restore_nand();
+#endif
+
     portENTER_CRITICAL();
     vPortRestore();
     portEXIT_CRITICAL();
 }
 
-void restore_nand()
+static void restore_nand()
 {
     int i;
     uint32_t j;

@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include "spi_nand.h"
 
+#define WITH_NAND_FLASH
+
 #pragma PERSISTENT(shutdown_test)
 uint8_t shutdown_test = 3;
 
@@ -25,12 +27,13 @@ static void test_nand(void *pvParameters);
 
 void test_main(void)
 {
+#ifdef WITH_NAND_FLASH
     xTaskCreate(test_nand, "test", 512, NULL, tskIDLE_PRIORITY + 1, NULL);
+#elif
+    xTaskCreate(test_print, "test", 512, NULL, tskIDLE_PRIORITY + 1, NULL);
+#endif
 
     vTaskStartScheduler();
-
-    //      test_print(NULL);
-    //    test_nand(NULL);
 }
 
 static void test_print(void *pvParameters)
@@ -140,7 +143,6 @@ static void test_nand(void *pvParameters)
         if (i == 10)
         {
             printf("checkpoint at: %d\n\n", i);
-            checkpoint_nand();
             checkpoint();
         }
         else if (i == 20 && shutdown_test == 3)
@@ -152,7 +154,6 @@ static void test_nand(void *pvParameters)
         else if (i == 30)
         {
             printf("checkpoint at: %d\n\n", i);
-            checkpoint_nand();
             checkpoint();
         }
         else if (i == 50 && shutdown_test == 2)
@@ -164,7 +165,6 @@ static void test_nand(void *pvParameters)
         else if (i == 60)
         {
             printf("checkpoint at: %d\n\n", i);
-            checkpoint_nand();
             checkpoint();
         }
         else if (i == 90 && shutdown_test == 1)
