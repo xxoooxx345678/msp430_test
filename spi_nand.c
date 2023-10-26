@@ -484,7 +484,7 @@ int spi_nand_init()
     if (tmp != 0)
         return 1;
 
-    //clear_all_blocks();
+    clear_all_blocks();
 
     return 0;
 }
