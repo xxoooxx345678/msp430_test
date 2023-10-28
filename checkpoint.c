@@ -29,6 +29,9 @@ extern uint8_t undo_log_ptr;
 #pragma PERSISTENT(dma_param)
 DMA_initParam dma_param = {0};
 
+static void checkpoint_nand();
+static void restore_nand();
+
 void DMA_transfer(uint8_t *src, uint8_t *dst, size_t size)
 {
     dma_param.channelSelect = DMA_CHANNEL_0;
