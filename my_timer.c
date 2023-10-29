@@ -13,29 +13,44 @@ void timer_init()
     initContParam.timerInterruptEnable_TAIE = TIMER_A_TAIE_INTERRUPT_ENABLE;
     initContParam.timerClear = TIMER_A_DO_CLEAR;
     initContParam.startTimer = false;
-    Timer_A_initContinuousMode(TIMER_A1_BASE, &initContParam);
+    Timer_A_initContinuousMode(TIMER_A2_BASE, &initContParam);
 
-    Timer_A_enableInterrupt(TIMER_A1_BASE);
+    Timer_A_enableInterrupt(TIMER_A2_BASE);
+}
+
+double get_elasped_time(uint32_t start, uint32_t end, uint32_t TIMER_FREQ)
+{
+    return ((double)(end - start) / TIMER_FREQ);
 }
 
 void timer_start()
 {
-    Timer_A_clear(TIMER_A1_BASE);
-    Timer_A_startCounter(TIMER_A1_BASE, TIMER_A_CONTINUOUS_MODE);
+    Timer_A_clear(TIMER_A2_BASE);
+    Timer_A_startCounter(TIMER_A2_BASE, TIMER_A_CONTINUOUS_MODE);
 }
 
 uint32_t get_current_tick()
 {
-    uint16_t tmp_time = Timer_A_getCounterValue(TIMER_A1_BASE);
+    uint16_t tmp_time = Timer_A_getCounterValue(TIMER_A2_BASE);
     return (uint32_t)tmp_time + elapsed_tick;
 }
 
-#pragma vector=TIMER1_A1_VECTOR
-__interrupt void v4RunTimeStatsTimerOverflow( void )
+#pragma vector=TIMER2_A1_VECTOR
+__interrupt void A2_ISR( void )
 {
-	TA1CTL &= ~TAIFG;
+    if (TA2IV == 0xE)
+        elapsed_tick += 0x10000;
+
+    TA2CTL &= ~TAIFG;
 	
-	/* 16-bit overflow, so add 17th bit. */
-	elapsed_tick += 0x10000;
 	__bic_SR_register_on_exit( SCG1 + SCG0 + OSCOFF + CPUOFF );
+}
+
+// FreeRTOS uses A1 timer, need a interrupt vector to handle it
+#pragma vector=TIMER1_A1_VECTOR
+__interrupt void A1_ISR( void )
+{
+    TA1CTL &= ~TAIFG;
+
+    __bic_SR_register_on_exit( SCG1 + SCG0 + OSCOFF + CPUOFF );
 }
