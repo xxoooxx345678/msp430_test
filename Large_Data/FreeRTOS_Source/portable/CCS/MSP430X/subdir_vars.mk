@@ -4,10 +4,10 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 ASM_SRCS += \
-/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/portable/CCS/MSP430X/portext.asm 
+/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/portable/CCS/MSP430X/portext.asm 
 
 C_SRCS += \
-/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/portable/CCS/MSP430X/port.c 
+/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/portable/CCS/MSP430X/port.c 
 
 C_DEPS += \
 ./FreeRTOS_Source/portable/CCS/MSP430X/port.d 
@@ -30,9 +30,9 @@ ASM_DEPS__QUOTED += \
 "FreeRTOS_Source/portable/CCS/MSP430X/portext.d" 
 
 C_SRCS__QUOTED += \
-"/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/portable/CCS/MSP430X/port.c" 
+"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/portable/CCS/MSP430X/port.c" 
 
 ASM_SRCS__QUOTED += \
-"/home/test/Downloads/FreeRTOS-202107.00/FreeRTOS/Source/portable/CCS/MSP430X/portext.asm" 
+"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/portable/CCS/MSP430X/portext.asm" 
 
 

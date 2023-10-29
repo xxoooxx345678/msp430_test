@@ -73,7 +73,7 @@ double latency_read(uint32_t read_cnt)
             printf("READ ERROR: %d %d\n", i, rrr);
     }
 
-    return get_elasped_time(0, elapsed_time, 8000000);
+    return get_elasped_time(0, elapsed_time, 8000000) / read_cnt;
 }
 
 double latency_write(uint32_t write_cnt)
@@ -96,7 +96,7 @@ double latency_write(uint32_t write_cnt)
             printf("WRITE ERROR: %d\n", i);
     }
 
-    return get_elasped_time(0, elapsed_time, 8000000);
+    return get_elasped_time(0, elapsed_time, 8000000) / write_cnt;
 }
 
 double latency_erase(uint32_t erase_cnt)
@@ -118,5 +118,5 @@ double latency_erase(uint32_t erase_cnt)
         elapsed_time += (ed - st);
     }
 
-    return get_elasped_time(0, elapsed_time, 8000000);
+    return get_elasped_time(0, elapsed_time, 8000000) / erase_cnt;
 }
