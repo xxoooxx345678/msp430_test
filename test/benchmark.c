@@ -11,6 +11,9 @@
 uint8_t input[2048] = {0};
 uint8_t output[2048];
 
+#pragma PERSISTENT(fram_buffer)
+volatile uint8_t fram_buffer;
+
 static void set_input()
 {
     volatile uint16_t i;
@@ -29,7 +32,47 @@ static uint16_t validate(uint8_t *input, uint8_t *output, size_t len)
     return -1;
 }
 
-void test()
+double fram_latency_read(uint32_t read_cnt)
+{
+    volatile uint32_t i;
+    volatile uint32_t st, ed;
+    volatile uint8_t tmp = 0;
+
+    volatile uint32_t elapsed_time = 0;
+
+    st = get_current_tick();
+    __no_operation();
+    for (i = 0; i < read_cnt; ++i)
+    {
+        tmp = fram_buffer;
+    }
+    ed = get_current_tick();
+    elapsed_time += (ed - st);
+    __no_operation();
+    return get_elasped_time(0, elapsed_time, 8000000) / read_cnt;
+}
+
+double fram_latency_write(uint32_t write_cnt)
+{
+    volatile uint32_t i;
+    volatile uint32_t st, ed;
+    volatile uint8_t tmp;
+
+    volatile uint32_t elapsed_time = 0;
+
+    st = get_current_tick();
+    __no_operation();
+    for (i = 0; i < write_cnt; ++i)
+    {
+        fram_buffer = tmp;
+    }
+    ed = get_current_tick();
+    elapsed_time += (ed - st);
+    __no_operation();
+    return get_elasped_time(0, elapsed_time, 8000000) / write_cnt;
+}
+
+void nand_test()
 {
     set_input();
 
@@ -48,11 +91,10 @@ void test()
 
     read_op(0x1694, 0, output, 2048);
 
-
     clear_all_blocks();
 }
 
-double latency_read(uint32_t read_cnt)
+double nand_latency_read(uint32_t read_cnt)
 {
     uint32_t elapsed_time = 0;
 
@@ -61,45 +103,41 @@ double latency_read(uint32_t read_cnt)
     uint32_t i;
     uint32_t st, ed;
 
+    st = get_current_tick();
+    __no_operation();
     for (i = 0; i < read_cnt; ++i)
     {
-        write_op(i, 0, input, 2048);
-        st = get_current_tick();
         read_op(i, 0, output, 2048);
-        ed = get_current_tick();
-        elapsed_time += (ed - st);
-        volatile int rrr = validate(input, output, 2048);
-        if (rrr != (uint16_t)-1)
-            printf("READ ERROR: %d %d\n", i, rrr);
     }
-
+    ed = get_current_tick();
+    elapsed_time += (ed - st);
+    __no_operation();
     return get_elasped_time(0, elapsed_time, 8000000) / read_cnt;
 }
 
-double latency_write(uint32_t write_cnt)
+double nand_latency_write(uint32_t write_cnt)
 {
     uint32_t elapsed_time = 0;
 
     set_input();
 
     uint32_t i;
-    uint32_t st,ed;
+    uint32_t st, ed;
 
+    st = get_current_tick();
+    __no_operation();
     for (i = 0; i < write_cnt; ++i)
     {
-        st = get_current_tick();
         write_op(i, 0, input, 2048);
-        ed = get_current_tick();
-        elapsed_time += (ed - st);
-        read_op(i, 0, output, 2048);
-        if (validate(input, output, 2048) != (uint16_t)-1)
-            printf("WRITE ERROR: %d\n", i);
     }
+    ed = get_current_tick();
+    elapsed_time += (ed - st);
+    __no_operation();
 
     return get_elasped_time(0, elapsed_time, 8000000) / write_cnt;
 }
 
-double latency_erase(uint32_t erase_cnt)
+double nand_latency_erase(uint32_t erase_cnt)
 {
     uint32_t elapsed_time = 0;
 
@@ -111,9 +149,9 @@ double latency_erase(uint32_t erase_cnt)
     for (i = 0; i < erase_cnt; ++i)
     {
         for (j = 0; j < 64; ++j)
-            write_op((i<<6)+j, 0, input, 2048);
+            write_op((i << 6) + j, 0, input, 2048);
         st = get_current_tick();
-        erase_op((i<<6));
+        erase_op((i << 6));
         ed = get_current_tick();
         elapsed_time += (ed - st);
     }
