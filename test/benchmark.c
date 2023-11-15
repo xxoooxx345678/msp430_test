@@ -12,7 +12,9 @@ uint8_t input[2048] = {0};
 uint8_t output[2048];
 
 #pragma PERSISTENT(fram_buffer)
-volatile uint8_t fram_buffer;
+volatile uint16_t fram_buffer[32] = {0};
+
+volatile uint16_t sram_buffer[32];
 
 static void set_input()
 {
@@ -32,22 +34,29 @@ static uint16_t validate(uint8_t *input, uint8_t *output, size_t len)
     return -1;
 }
 
+extern void framRead();
+extern void framWrite();
+
 double fram_latency_read(uint32_t read_cnt)
 {
     volatile uint32_t i;
+ 
+    for (i = 0; i < 32; ++i)
+        fram_buffer[i] = i;
+ 
     volatile uint32_t st, ed;
-    volatile uint8_t tmp = 0;
+    volatile uint32_t tmp = (read_cnt / 2) / 8192;
 
     volatile uint32_t elapsed_time = 0;
 
-    st = get_current_tick();
     __no_operation();
-    for (i = 0; i < read_cnt; ++i)
-    {
-        tmp = fram_buffer;
-    }
-    ed = get_current_tick();
-    elapsed_time += (ed - st);
+//    st = get_current_tick();
+
+    for (i = 0; i < tmp; ++i)
+        framRead(); 
+
+//    ed = get_current_tick();
+//    elapsed_time += (ed - st);
     __no_operation();
     return get_elasped_time(0, elapsed_time, 8000000) / read_cnt;
 }
@@ -56,18 +65,18 @@ double fram_latency_write(uint32_t write_cnt)
 {
     volatile uint32_t i;
     volatile uint32_t st, ed;
-    volatile uint8_t tmp;
+    volatile uint32_t tmp = (write_cnt / 2) / 8192;
 
     volatile uint32_t elapsed_time = 0;
 
-    st = get_current_tick();
-    __no_operation();
-    for (i = 0; i < write_cnt; ++i)
-    {
-        fram_buffer = tmp;
-    }
-    ed = get_current_tick();
-    elapsed_time += (ed - st);
+    __no_operation(); //
+//    st = get_current_tick();
+
+    for (i = 0; i < tmp; ++i)
+        framWrite();
+
+//    ed = get_current_tick();
+//    elapsed_time += (ed - st);
     __no_operation();
     return get_elasped_time(0, elapsed_time, 8000000) / write_cnt;
 }

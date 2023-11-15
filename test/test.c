@@ -15,14 +15,14 @@ void test_main(void)
 //    vTaskStartScheduler();
 
     fram_read_write_perf(NULL);
-    nand_read_write_perf(NULL);
+//    nand_read_write_perf(NULL);
 }
 
 static void fram_read_write_perf(void *pvParameters)
 {
-    volatile double read_latency = fram_latency_read(2048000);
-    printf("read done, latency: %d nano seconds\n", (uint32_t)(read_latency*1000000000));
-    volatile double write_latency = fram_latency_write(2048000);
+    volatile double read_latency = fram_latency_read(20480000);
+   printf("read done, latency: %d nano seconds\n", (uint32_t)(read_latency*1000000000));
+    volatile double write_latency = fram_latency_write(20480000);
     printf("write done, latency: %d nano seconds\n", (uint32_t)(write_latency*1000000000));
 }
 
