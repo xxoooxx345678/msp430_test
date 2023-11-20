@@ -50,13 +50,13 @@ double fram_latency_read(uint32_t read_cnt)
     volatile uint32_t elapsed_time = 0;
 
     __no_operation();
-//    st = get_current_tick();
+    st = get_current_tick();
 
     for (i = 0; i < tmp; ++i)
         framRead(); 
 
-//    ed = get_current_tick();
-//    elapsed_time += (ed - st);
+    ed = get_current_tick();
+    elapsed_time += (ed - st);
     __no_operation();
     return get_elasped_time(0, elapsed_time, 8000000) / read_cnt;
 }
@@ -69,14 +69,14 @@ double fram_latency_write(uint32_t write_cnt)
 
     volatile uint32_t elapsed_time = 0;
 
-    __no_operation(); //
-//    st = get_current_tick();
+    __no_operation();
+    st = get_current_tick();
 
     for (i = 0; i < tmp; ++i)
         framWrite();
 
-//    ed = get_current_tick();
-//    elapsed_time += (ed - st);
+    ed = get_current_tick();
+    elapsed_time += (ed - st);
     __no_operation();
     return get_elasped_time(0, elapsed_time, 8000000) / write_cnt;
 }

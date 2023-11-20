@@ -15,16936 +15,16938 @@
 framRead: .asmfunc
     movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
 
-    movx.w &fram_buffer, r10
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
-    movx.w &fram_buffer, r10
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+    movx.w &fram_buffer, r10 
     movx.w &(fram_buffer+2), r10
-    movx.w &(fram_buffer+3), r10
     movx.w &(fram_buffer+4), r10
-    movx.w &(fram_buffer+5), r10
     movx.w &(fram_buffer+6), r10
-    movx.w &(fram_buffer+7), r10
     movx.w &(fram_buffer+8), r10
-    movx.w &(fram_buffer+9), r10
     movx.w &(fram_buffer+10), r10
-    movx.w &(fram_buffer+11), r10
     movx.w &(fram_buffer+12), r10
-    movx.w &(fram_buffer+13), r10
     movx.w &(fram_buffer+14), r10
-    movx.w &(fram_buffer+15), r10
     movx.w &(fram_buffer+16), r10
-    movx.w &(fram_buffer+17), r10
     movx.w &(fram_buffer+18), r10
-    movx.w &(fram_buffer+19), r10
     movx.w &(fram_buffer+20), r10
-    movx.w &(fram_buffer+21), r10
     movx.w &(fram_buffer+22), r10
-    movx.w &(fram_buffer+23), r10
     movx.w &(fram_buffer+24), r10
-    movx.w &(fram_buffer+25), r10
     movx.w &(fram_buffer+26), r10
-    movx.w &(fram_buffer+27), r10
     movx.w &(fram_buffer+28), r10
-    movx.w &(fram_buffer+29), r10
     movx.w &(fram_buffer+30), r10
-    movx.w &(fram_buffer+31), r10
     movx.w &(fram_buffer+32), r10
-    
+    movx.w &(fram_buffer+34), r10
+    movx.w &(fram_buffer+36), r10
+    movx.w &(fram_buffer+38), r10
+    movx.w &(fram_buffer+40), r10
+    movx.w &(fram_buffer+42), r10
+    movx.w &(fram_buffer+44), r10
+    movx.w &(fram_buffer+46), r10
+    movx.w &(fram_buffer+48), r10
+    movx.w &(fram_buffer+50), r10
+    movx.w &(fram_buffer+52), r10
+    movx.w &(fram_buffer+54), r10
+    movx.w &(fram_buffer+56), r10
+    movx.w &(fram_buffer+58), r10
+    movx.w &(fram_buffer+60), r10
+    movx.w &(fram_buffer+62), r10
+
+
     RETA
 	.endasmfunc
 
 framWrite: .asmfunc
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w #1, r10
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
     
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
-    movx.w #1, &fram_buffer
-    movx.w #2, &(fram_buffer+2)
-    movx.w #3, &(fram_buffer+4)
-    movx.w #4, &(fram_buffer+6)
-    movx.w #5, &(fram_buffer+8)
-    movx.w #6, &(fram_buffer+10)
-    movx.w #7, &(fram_buffer+12)
-    movx.w #8, &(fram_buffer+14)
-    movx.w #9, &(fram_buffer+16)
-    movx.w #10, &(fram_buffer+18)
-    movx.w #11, &(fram_buffer+20)
-    movx.w #12, &(fram_buffer+22)
-    movx.w #13, &(fram_buffer+24)
-    movx.w #14, &(fram_buffer+26)
-    movx.w #15, &(fram_buffer+28)
-    movx.w #16, &(fram_buffer+30)
-    movx.w #17, &(fram_buffer+32)
-    movx.w #18, &(fram_buffer+34)
-    movx.w #19, &(fram_buffer+36)
-    movx.w #20, &(fram_buffer+38)
-    movx.w #21, &(fram_buffer+40)
-    movx.w #22, &(fram_buffer+42)
-    movx.w #23, &(fram_buffer+44)
-    movx.w #24, &(fram_buffer+46)
-    movx.w #25, &(fram_buffer+48)
-    movx.w #26, &(fram_buffer+50)
-    movx.w #27, &(fram_buffer+52)
-    movx.w #28, &(fram_buffer+54)
-    movx.w #29, &(fram_buffer+56)
-    movx.w #30, &(fram_buffer+58)
-    movx.w #31, &(fram_buffer+60)
-    movx.w #32, &(fram_buffer+62)
+    movx.w r10, &fram_buffer
+    movx.w r10, &(fram_buffer+2)
+    movx.w r10, &(fram_buffer+4)
+    movx.w r10, &(fram_buffer+6)
+    movx.w r10, &(fram_buffer+8)
+    movx.w r10, &(fram_buffer+10)
+    movx.w r10, &(fram_buffer+12)
+    movx.w r10, &(fram_buffer+14)
+    movx.w r10, &(fram_buffer+16)
+    movx.w r10, &(fram_buffer+18)
+    movx.w r10, &(fram_buffer+20)
+    movx.w r10, &(fram_buffer+22)
+    movx.w r10, &(fram_buffer+24)
+    movx.w r10, &(fram_buffer+26)
+    movx.w r10, &(fram_buffer+28)
+    movx.w r10, &(fram_buffer+30)
+    movx.w r10, &(fram_buffer+32)
+    movx.w r10, &(fram_buffer+34)
+    movx.w r10, &(fram_buffer+36)
+    movx.w r10, &(fram_buffer+38)
+    movx.w r10, &(fram_buffer+40)
+    movx.w r10, &(fram_buffer+42)
+    movx.w r10, &(fram_buffer+44)
+    movx.w r10, &(fram_buffer+46)
+    movx.w r10, &(fram_buffer+48)
+    movx.w r10, &(fram_buffer+50)
+    movx.w r10, &(fram_buffer+52)
+    movx.w r10, &(fram_buffer+54)
+    movx.w r10, &(fram_buffer+56)
+    movx.w r10, &(fram_buffer+58)
+    movx.w r10, &(fram_buffer+60)
+    movx.w r10, &(fram_buffer+62)
 
     RETA
 .endasmfunc
