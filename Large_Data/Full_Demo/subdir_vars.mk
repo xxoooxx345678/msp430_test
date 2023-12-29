@@ -4,8 +4,8 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS-Plus/Demo/Common/FreeRTOS_Plus_CLI_Demos/Sample-CLI-commands.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS-Plus/Demo/Common/FreeRTOS_Plus_CLI_Demos/UARTCommandConsole.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS-Plus/Demo/Common/FreeRTOS_Plus_CLI_Demos/Sample-CLI-commands.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS-Plus/Demo/Common/FreeRTOS_Plus_CLI_Demos/UARTCommandConsole.c \
 ../Full_Demo/main_full.c \
 ../Full_Demo/serial.c 
 
@@ -34,8 +34,8 @@ C_DEPS__QUOTED += \
 "Full_Demo/serial.d" 
 
 C_SRCS__QUOTED += \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS-Plus/Demo/Common/FreeRTOS_Plus_CLI_Demos/Sample-CLI-commands.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS-Plus/Demo/Common/FreeRTOS_Plus_CLI_Demos/UARTCommandConsole.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS-Plus/Demo/Common/FreeRTOS_Plus_CLI_Demos/Sample-CLI-commands.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS-Plus/Demo/Common/FreeRTOS_Plus_CLI_Demos/UARTCommandConsole.c" \
 "../Full_Demo/main_full.c" \
 "../Full_Demo/serial.c" 
 

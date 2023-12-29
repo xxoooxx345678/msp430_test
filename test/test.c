@@ -14,8 +14,8 @@ void test_main(void)
 //
 //    vTaskStartScheduler();
 
-    fram_read_write_perf(NULL);
-//    nand_read_write_perf(NULL);
+//    fram_read_write_perf(NULL);
+    nand_read_write_perf(NULL);
 }
 
 static void fram_read_write_perf(void *pvParameters)
@@ -38,12 +38,12 @@ static void nand_read_write_perf(void *pvParameters)
     nand_test();
     printf("test done\n");
 
-    volatile double read_latency = nand_latency_read(1000);
-    printf("read done, latency: %d micro seconds\n", (uint32_t)(read_latency*1000000));
-    volatile double write_latency = nand_latency_write(1000);
-    printf("write done, latency: %d micro seconds\n", (uint32_t)(write_latency*1000000));
-//    volatile double erase_latency = latency_erase(10);
-//    printf("erase done, latency: %d micro seconds\n", (uint32_t)(erase_latency*1000000));
+//    volatile double read_latency = nand_latency_read(1000);
+//    printf("read done, latency: %d micro seconds\n", (uint32_t)(read_latency*1000000));
+//    volatile double write_latency = nand_latency_write(1000);
+//    printf("write done, latency: %d micro seconds\n", (uint32_t)(write_latency*1000000));
+    volatile double erase_latency = nand_latency_erase(10000);
+    printf("erase done, latency: %d micro seconds\n", (uint32_t)(erase_latency*1000000));
 
 #endif
 
@@ -53,15 +53,15 @@ static void nand_read_write_perf(void *pvParameters)
     if (ret != 0)
         return;
 
-    test();
+    nand_test();
     printf("test done\n");
 
-    volatile double read_latency = latency_read(100);
+    volatile double read_latency = nand_latency_read(100);
     printf("read done, latency: %d micro seconds\n", (uint16_t)(read_latency*1000000));
-    volatile double write_latency = latency_write(100);
+    volatile double write_latency = nand_latency_write(100);
     printf("write done, latency: %d micro seconds\n", (uint16_t)(write_latency*1000000));
-    volatile double erase_latency = latency_erase(100);
-    printf("erase done, latency: %d micro seconds\n", (uint16_t)(erase_latency*1000000));
+//    volatile double erase_latency = nand_latency_erase(100);
+//    printf("erase done, latency: %d micro seconds\n", (uint16_t)(erase_latency*1000000));
 
 #endif
     for (;;);

@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/croutine.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/event_groups.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/list.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/queue.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/stream_buffer.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/tasks.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/timers.c 
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/croutine.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/event_groups.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/list.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/queue.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/stream_buffer.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/tasks.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/timers.c 
 
 C_DEPS += \
 ./FreeRTOS_Source/croutine.d \
@@ -49,12 +49,12 @@ C_DEPS__QUOTED += \
 "FreeRTOS_Source/timers.d" 
 
 C_SRCS__QUOTED += \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/croutine.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/event_groups.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/list.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/queue.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/stream_buffer.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/tasks.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Source/timers.c" 
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/croutine.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/event_groups.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/list.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/queue.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/stream_buffer.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/tasks.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Source/timers.c" 
 
 

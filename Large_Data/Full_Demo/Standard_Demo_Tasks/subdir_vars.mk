@@ -4,13 +4,13 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/EventGroupsDemo.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/GenQTest.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/TaskNotify.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/blocktim.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/countsem.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/dynamic.c \
-/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/recmutex.c 
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/EventGroupsDemo.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/GenQTest.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/TaskNotify.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/blocktim.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/countsem.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/dynamic.c \
+/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/recmutex.c 
 
 C_DEPS += \
 ./Full_Demo/Standard_Demo_Tasks/EventGroupsDemo.d \
@@ -49,12 +49,12 @@ C_DEPS__QUOTED += \
 "Full_Demo/Standard_Demo_Tasks/recmutex.d" 
 
 C_SRCS__QUOTED += \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/EventGroupsDemo.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/GenQTest.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/TaskNotify.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/blocktim.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/countsem.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/dynamic.c" \
-"/home/teliao/Desktop/freeRTOS/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/recmutex.c" 
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/EventGroupsDemo.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/GenQTest.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/TaskNotify.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/blocktim.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/countsem.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/dynamic.c" \
+"/home/teliao/Desktop/freeRTOS/msp430_test/FreeRTOS-202107.00/FreeRTOS/Demo/Common/Minimal/recmutex.c" 
 
 

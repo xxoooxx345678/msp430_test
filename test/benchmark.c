@@ -155,15 +155,16 @@ double nand_latency_erase(uint32_t erase_cnt)
     uint32_t i, j;
     uint32_t st, ed;
 
-    for (i = 0; i < erase_cnt; ++i)
-    {
-        for (j = 0; j < 64; ++j)
-            write_op((i << 6) + j, 0, input, 2048);
-        st = get_current_tick();
-        erase_op((i << 6));
-        ed = get_current_tick();
-        elapsed_time += (ed - st);
-    }
+    for (i = 0; i < BLOCKS_PER_PLANE; ++i)
+        for (j = 0; j < PAGES_PER_BLOCK; ++j)
+           write_op((i << 6) + j, 0, input, 2048);
 
+    st = get_current_tick();
+    __no_operation();
+    for (i = 0; i < erase_cnt; ++i)
+        erase_op((i << 6) % 1024);
+    __no_operation();
+    ed = get_current_tick();
+    elapsed_time += (ed - st);
     return get_elasped_time(0, elapsed_time, 8000000) / erase_cnt;
 }
