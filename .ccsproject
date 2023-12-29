@@ -10,5 +10,5 @@
 	<createSlaveProjects value=""/>
 	<templateProperties value="id=OutOfBox_MSP430FR5969.projectspec.OutOfBox_MSP430FR5969,"/>
 	<connection value="common/targetdb/connections/TIMSP430-USB.xml"/>
-	<isTargetManual value="false"/>
+	<isTargetManual value="true"/>
 </projectOptions>
