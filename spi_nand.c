@@ -1,4 +1,3 @@
-#include "FreeRTOS.h"
 #include "driverlib.h"
 #include "spi.h"
 #include "spi_nand.h"
@@ -198,10 +197,10 @@ int spi_nand_init()
         return 1;
     
     unlock_block();
-    clear_all_blocks();
+    // clear_all_blocks();
 
-    enable_ecc();
-//    disable_ecc();
+//    enable_ecc();
+    disable_ecc();
 
     return 0;
 }
