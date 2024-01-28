@@ -15,47 +15,7 @@
 #define MAX_2	1000
 
 #pragma NOINIT(input)
-#pragma NOINIT(output)
 uint8_t input[2048];
-uint8_t output[2048];
-
-static void set_input()
-{
-	volatile uint16_t i;
-
-	for (i = 0; i < 2048; ++i)
-		input[i] = i % 4;
-}
-
-static uint16_t validate(uint8_t *input, uint8_t *output, size_t len)
-{
-	volatile uint16_t i;
-	for (i = 0; i < len; ++i)
-		if (input[i] != output[i])
-			return i;
-
-	return -1;
-}
-
-void nand_test()
-{
-	set_input();
-
-	write_op(0x1694, 0, input, 2048);
-
-	read_op(0x1694, 0, output, 2048);
-
-	volatile uint16_t val = validate(input, output, 2048);
-
-	if (val != (uint16_t)-1)
-		__no_operation();
-
-	erase_op(0x1692);
-
-	read_op(0x1694, 0, output, 2048);
-
-	clear_all_blocks();
-}
 
 /**
  * main.c
@@ -66,12 +26,12 @@ int main(void)
 
 	UCSCTL1 = DCORSEL_5; // Select DCO range 16MHz operation
 	UCSCTL2 |= 249;		 // Set DCO Multiplier for 8MHz
-					// (N + 1) * FLLRef = Fdco
-					// (249 + 1) * 32768 = 8MHz
+						 // (N + 1) * FLLRef = Fdco
+						 // (249 + 1) * 32768 = 8MHz
 
-    __enable_interrupt();
-    timer_init();
-    timer_start();
+	__enable_interrupt();
+	timer_init();
+	timer_start();
 
 	P2OUT &= ~BIT7;
 	P2DIR |= BIT7;
@@ -93,25 +53,16 @@ int main(void)
 
 	uint8_t row;
 	uint16_t col;
-    volatile uint32_t st, ed, tt_tick = 0;
-    volatile double elapsed_time;
-    volatile double latency;
 	for (row = 0; row < 20; ++row)
 	{
 		for (col = 0; col < PAGE_SIZE;)
 		{
-		    st = get_current_tick();
 			*(int16_t *)(input + col) = norm_rand(MEAN_1, STD_1, MIN_1, MAX_1);
 			*(int16_t *)(input + col + 2) = norm_rand(MEAN_2, STD_2, MIN_2, MAX_2);
-			ed = get_current_tick();
-			tt_tick += ed - st;
 			col += 4;
-
 		}
-		//write_op(0x0116 + row, 0, input, PAGE_SIZE);
+		write_op(0x0116 + row, 0, input, PAGE_SIZE);
 	}
-
-	elapsed_time = get_elasped_time(0, tt_tick, 8000000);
 
 	return 0;
 }
