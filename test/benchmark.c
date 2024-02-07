@@ -58,6 +58,7 @@ double fram_latency_read(uint32_t read_cnt)
     ed = get_current_tick();
     elapsed_time += (ed - st);
     __no_operation();
+
     return get_elasped_time(0, elapsed_time, 8000000) / read_cnt;
 }
 
@@ -78,6 +79,7 @@ double fram_latency_write(uint32_t write_cnt)
     ed = get_current_tick();
     elapsed_time += (ed - st);
     __no_operation();
+
     return get_elasped_time(0, elapsed_time, 8000000) / write_cnt;
 }
 
@@ -112,15 +114,16 @@ double nand_latency_read(uint32_t read_cnt)
     uint32_t i;
     uint32_t st, ed;
 
-    st = get_current_tick();
     __no_operation();
+    st = get_current_tick();
+
     for (i = 0; i < read_cnt; ++i)
-    {
         read_op(i, 0, output, 2048);
-    }
+    
     ed = get_current_tick();
     elapsed_time += (ed - st);
     __no_operation();
+    
     return get_elasped_time(0, elapsed_time, 8000000) / read_cnt;
 }
 
@@ -133,12 +136,12 @@ double nand_latency_write(uint32_t write_cnt)
     uint32_t i;
     uint32_t st, ed;
 
-    st = get_current_tick();
     __no_operation();
+    st = get_current_tick();
+
     for (i = 0; i < write_cnt; ++i)
-    {
         write_op(i, 0, input, 2048);
-    }
+
     ed = get_current_tick();
     elapsed_time += (ed - st);
     __no_operation();
@@ -159,12 +162,15 @@ double nand_latency_erase(uint32_t erase_cnt)
         for (j = 0; j < PAGES_PER_BLOCK; ++j)
            write_op((i << 6) + j, 0, input, 2048);
 
-    st = get_current_tick();
     __no_operation();
+    st = get_current_tick();
+
     for (i = 0; i < erase_cnt; ++i)
         erase_op((i << 6) % 1024);
-    __no_operation();
+
     ed = get_current_tick();
     elapsed_time += (ed - st);
+    __no_operation();
+
     return get_elasped_time(0, elapsed_time, 8000000) / erase_cnt;
 }
