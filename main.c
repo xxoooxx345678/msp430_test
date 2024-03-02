@@ -1,269 +1,136 @@
-/*
- * FreeRTOS V202111.00
- * Copyright (C) 2020 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of
- * this software and associated documentation files (the "Software"), to deal in
- * the Software without restriction, including without limitation the rights to
- * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
- * the Software, and to permit persons to whom the Software is furnished to do so,
- * subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
- * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
- * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
- * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
- * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- *
- * http://www.FreeRTOS.org
- * http://aws.amazon.com/freertos
- *
- * 1 tab == 4 spaces!
- */
-
-/******************************************************************************
- * This project provides two demo applications.  A simple blinky style project,
- * and a more comprehensive test and demo application.  The
- * mainCREATE_SIMPLE_BLINKY_DEMO_ONLY setting (defined in this file) is used to
- * select between the two.  The simply blinky demo is implemented and described
- * in main_blinky.c.  The more comprehensive test and demo application is
- * implemented and described in main_full.c.
- *
- * This file implements the code that is not demo specific, including the
- * hardware setup and standard FreeRTOS hook functions.
- *
- * ENSURE TO READ THE DOCUMENTATION PAGE FOR THIS PORT AND DEMO APPLICATION ON
- * THE http://www.FreeRTOS.org WEB SITE FOR FULL INFORMATION ON USING THIS DEMO
- * APPLICATION, AND ITS ASSOCIATE FreeRTOS ARCHITECTURE PORT!
- *
- */
-
-/* Scheduler include files. */
-#include "FreeRTOS.h"
-#include "task.h"
-#include "semphr.h"
-
-/* Standard demo includes, used so the tick hook can exercise some FreeRTOS
-functionality in an interrupt. */
-#include "EventGroupsDemo.h"
-#include "TaskNotify.h"
-//#include "ParTest.h" /* LEDs - a historic name for "Parallel Port". */
-
-/* TI includes. */
-#include "driverlib.h"
-#include <stdio.h>
+#include <msp430.h> 
+#include <stdlib.h>
+#include <time.h>
+#include <driverlib.h>
 #include "my_timer.h"
 
+typedef struct Record {
+    uint8_t x;
+    uint8_t y;
+} Record;
 
-/* Set mainCREATE_SIMPLE_BLINKY_DEMO_ONLY to one to run the simple blinky demo,
-or 0 to run the more comprehensive test and demo application. */
-#define mainCREATE_SIMPLE_BLINKY_DEMO_ONLY	1
+typedef struct ArrNode {
+    uint16_t child[2]; // child array
+    Record record;
+} ArrNode;
 
-/*-----------------------------------------------------------*/
+typedef struct PtrNode {
+    struct PtrNode *child[2];
+    Record record;
+} PtrNode;
 
-/*
- * Configure the hardware as necessary to run this demo.
- */
-static void prvSetupHardware( void );
+#pragma DATA_SECTION(tree, ".tree");
+uint8_t tree[512]; 
 
-/*
- * main_blinky() is used when mainCREATE_SIMPLE_BLINKY_DEMO_ONLY is set to 1.
- * main_full() is used when mainCREATE_SIMPLE_BLINKY_DEMO_ONLY is set to 0.
- */
-#if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
-	extern void main_blinky( void );
-//	extern void test_main( void );
-#else
-	extern void main_full( void );
-#endif /* #if mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 */
+ArrNode * const arrTree = (ArrNode *)tree;
+PtrNode * const ptrTree = (PtrNode *)tree;
 
-/* Prototypes for the standard FreeRTOS callback/hook functions implemented
-within this file. */
-void vApplicationMallocFailedHook( void );
-void vApplicationIdleHook( void );
-void vApplicationStackOverflowHook( TaskHandle_t pxTask, char *pcTaskName );
-void vApplicationTickHook( void );
+uint16_t node_id = 0;
 
-/* The heap is allocated here so the "persistent" qualifier can be used.  This
-requires configAPPLICATION_ALLOCATED_HEAP to be set to 1 in FreeRTOSConfig.h.
-See http://www.freertos.org/a00111.html for more information. */
-#ifdef __ICC430__
-	__persistent 					/* IAR version. */
-#else
-	#pragma PERSISTENT( ucHeap ) 	/* CCS version. */
-#endif
-uint8_t ucHeap[ configTOTAL_HEAP_SIZE ] = { 0 };
-
-#pragma PERSISTENT(backuped)
-uint8_t backuped = 0;
-/*-----------------------------------------------------------*/
-int main( void )
+uint16_t initArrayTree(uint16_t size)
 {
-	/* See http://www.FreeRTOS.org/MSP430FR5969_Free_RTOS_Demo.html */
-	prvSetupHardware();
-	__enable_interrupt();
-	timer_init();
-	timer_start();
-	/* Configure the hardware ready to run the demo. */
+    if (size == 0)
+        return (uint16_t)-1;
 
-	/* The mainCREATE_SIMPLE_BLINKY_DEMO_ONLY setting is described at the top
-	of this file. */
-	#if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
-	{
-		test_main();
-	    while(1);
-	}
-	#else
-	{
-		main_full();
-	}
-	#endif
+    int lt_size = size > 1 ? rand() % (size - 1) : 0;
+    int rt_size = size - 1 - lt_size;
+    
+    uint16_t tmp_node_array = node_id++;
+
+    uint16_t left_child_array = initArrayTree(lt_size);
+    uint16_t right_child_array = initArrayTree(rt_size);
+
+    ArrNode tmp;
+    tmp.child[0] = left_child_array;
+    tmp.child[1] = right_child_array;
+    Record rtmp = {tmp_node_array, tmp_node_array};
+    tmp.record = rtmp;
+
+    FlashCtl_write8((uint8_t *)&tmp, (uint8_t *)&arrTree[tmp_node_array], sizeof(ArrNode));
+
+    return tmp_node_array;
+}
+
+PtrNode *initPtrTree(uint16_t size)
+{
+    if (size == 0)
+        return NULL;
+
+    int lt_size = size > 1 ? rand() % (size - 1) : 0;
+    int rt_size = size - 1 - lt_size;
+    
+    uint16_t tmp_node_array = node_id++;
+
+    PtrNode *left_child_ptr = initPtrTree(lt_size);
+    PtrNode *right_child_ptr = initPtrTree(rt_size);
+
+    PtrNode tmp;
+    tmp.child[0] = left_child_ptr;
+    tmp.child[1] = right_child_ptr;
+    Record rtmp = {tmp_node_array, tmp_node_array};
+    tmp.record = rtmp;
+
+    FlashCtl_write8((uint8_t *)&tmp, (uint8_t *)&ptrTree[tmp_node_array], sizeof(PtrNode));
+
+    return &ptrTree[tmp_node_array];
+}
+
+void arrTreeDFS(ArrNode *node)
+{
+    if (node->child[0] != (uint16_t)-1)
+        arrTreeDFS(&arrTree[node->child[0]]);
+    if (node->child[1] != (uint16_t)-1)
+        arrTreeDFS(&arrTree[node->child[1]]);
+}
+
+void PtrTreeDFS(PtrNode *node)
+{
+    if (node->child[0] != NULL)
+        PtrTreeDFS(node->child[0]);
+    if (node->child[1] != NULL)
+        PtrTreeDFS(node->child[1]);
+}
+
+/**
+ * main.c
+ */
+int main(void)
+{
+	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
+    
+	UCS_initFLL(16000, 250); // Set SMCLK to 8MHz
+    
+    timer_init(); // Init timer
+    timer_start();
+    uint32_t st, ed;
+
+    /*-----------Array Tree-------------*/
+
+    // Init arrTree
+    FlashCtl_eraseSegment(tree); 
+    node_id = 0;
+    initArrayTree(50);
+
+    // Get elapsed time of array tree traversal
+    st = get_current_tick();
+    arrTreeDFS(arrTree);
+    ed = get_current_tick();
+
+    volatile double array_elapsed_time = get_elasped_time(st, ed, UCS_getSMCLK());
+
+    /*----------Pointer Tree------------*/
+
+    // Init ptrTree
+    FlashCtl_eraseSegment(tree);
+    node_id = 0;
+    initPtrTree(50);
+
+    // Get elapsed time of pointer tree traversal
+    st = get_current_tick();
+    PtrTreeDFS(ptrTree);
+    ed = get_current_tick();
+
+    volatile double ptr_elapsed_time = get_elasped_time(st, ed, UCS_getSMCLK());
 
 	return 0;
 }
-/*-----------------------------------------------------------*/
-
-void vApplicationMallocFailedHook( void )
-{
-	/* Called if a call to pvPortMalloc() fails because there is insufficient
-	free memory available in the FreeRTOS heap.  pvPortMalloc() is called
-	internally by FreeRTOS API functions that create tasks, queues, software
-	timers, and semaphores.  The size of the FreeRTOS heap is set by the
-	configTOTAL_HEAP_SIZE configuration constant in FreeRTOSConfig.h. */
-
-	/* Force an assert. */
-	configASSERT( ( volatile void * ) NULL );
-}
-/*-----------------------------------------------------------*/
-
-void vApplicationStackOverflowHook( TaskHandle_t pxTask, char *pcTaskName )
-{
-	( void ) pcTaskName;
-	( void ) pxTask;
-
-	/* Run time stack overflow checking is performed if
-	configCHECK_FOR_STACK_OVERFLOW is defined to 1 or 2.  This hook
-	function is called if a stack overflow is detected.
-	See http://www.freertos.org/Stacks-and-stack-overflow-checking.html */
-
-	/* Force an assert. */
-	configASSERT( ( volatile void * ) NULL );
-}
-/*-----------------------------------------------------------*/
-
-void vApplicationIdleHook( void )
-{
-    __bis_SR_register( LPM4_bits + GIE );
-    __no_operation();
-}
-/*-----------------------------------------------------------*/
-
-void vApplicationTickHook( void )
-{
-	#if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 0 )
-	{
-		/* Call the periodic event group from ISR demo. */
-		vPeriodicEventGroupsProcessing();
-
-		/* Call the code that 'gives' a task notification from an ISR. */
-		xNotifyTaskFromISR();
-	}
-	#endif
-}
-/*-----------------------------------------------------------*/
-
-/* The MSP430X port uses this callback function to configure its tick interrupt.
-This allows the application to choose the tick interrupt source.
-configTICK_VECTOR must also be set in FreeRTOSConfig.h to the correct
-interrupt vector for the chosen tick interrupt source.  This implementation of
-vApplicationSetupTimerInterrupt() generates the tick from timer A0, so in this
-case configTICK_VECTOR is set to TIMER0_A0_VECTOR. */
-void vApplicationSetupTimerInterrupt( void )
-{
-const unsigned short usACLK_Frequency_Hz = 32768;
-
-	/* Ensure the timer is stopped. */
-	TA0CTL = 0;
-
-	/* Run the timer from the ACLK. */
-	TA0CTL = TASSEL_1;
-
-	/* Clear everything to start with. */
-	TA0CTL |= TACLR;
-
-	/* Set the compare match value according to the tick rate we want. */
-	TA0CCR0 = usACLK_Frequency_Hz / configTICK_RATE_HZ;
-
-	/* Enable the interrupts. */
-	TA0CCTL0 = CCIE;
-
-	/* Start up clean. */
-	TA0CTL |= TACLR;
-
-	/* Up mode. */
-	TA0CTL |= MC_1;
-}
-/*-----------------------------------------------------------*/
-
-static void prvSetupHardware( void )
-{
-    /* Stop Watchdog timer. */
-    WDT_A_hold( __MSP430_BASEADDRESS_WDT_A__ );
-
-    // Configure GPIO
-    P5SEL1 &= ~(BIT0 | BIT1 | BIT2);        // USCI_B1 SCLK, MOSI, and MISO pin
-    P5SEL0 |= (BIT0 | BIT1 | BIT2);
-
-    GPIO_setAsOutputPin(GPIO_PORT_P4, GPIO_PIN1); //CS#
-
-	/* Set PJ.4 and PJ.5 for LFXT. */
-	GPIO_setAsPeripheralModuleFunctionInputPin(  GPIO_PORT_PJ, GPIO_PIN4 + GPIO_PIN5, GPIO_PRIMARY_MODULE_FUNCTION  );
-
-	/* Set DCO frequency to 8 MHz. */
-	CS_setDCOFreq( CS_DCORSEL_0, CS_DCOFSEL_6 );
-
-	/* Set external clock frequency to 32.768 KHz. */
-	CS_setExternalClockSource( 32768, 0 );
-
-	/* Set ACLK = LFXT. */
-	CS_initClockSignal( CS_ACLK, CS_LFXTCLK_SELECT, CS_CLOCK_DIVIDER_1 );
-
-	/* Set SMCLK = DCO with frequency divider of 1. */
-	CS_initClockSignal( CS_SMCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1 );
-
-	/* Set MCLK = DCO with frequency divider of 1. */
-	CS_initClockSignal( CS_MCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1 );
-
-	/* Start XT1 with no time out. */
-	CS_turnOnLFXT( CS_LFXT_DRIVE_0 );
-
-	/* Disable the GPIO power-on default high-impedance mode. */
-	PMM_unlockLPM5();
-
-	GPIO_setOutputHighOnPin(GPIO_PORT_P4, GPIO_PIN1);
-
-    // Configure USCI_B1 for SPI operation
-    UCB1CTLW0 = UCSWRST;                    // **Put state machine in reset**
-    UCB1CTLW0 |= UCCKPH;                    // Clock phase
-    UCB1CTLW0 |= UCMSB;                     // MSB
-    UCB1CTLW0 |= UCMST;                     // SPI master
-    UCB1CTLW0 |= UCSYNC;                    // Synchronous
-    UCB1CTLW0 |= UCSSEL__SMCLK;             // 8Mhz
-    UCB1CTLW0 &= ~UCSWRST;                  // **Initialize USCI state machine**
-}
-/*-----------------------------------------------------------*/
-
-int _system_pre_init( void )
-{
-    /* Stop Watchdog timer. */
-    WDT_A_hold( __MSP430_BASEADDRESS_WDT_A__ );
-
-    /* Return 1 for segments to be initialised. */
-    return 1;
-}
-
-

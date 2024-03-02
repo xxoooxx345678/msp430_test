@@ -1,8 +1,7 @@
 #include "my_timer.h"
-#include "FreeRTOS.h"
+#include <stddef.h>
 #include "driverlib.h"
 
-#pragma PERSISTENT(elapsed_tick)
 uint32_t elapsed_tick = 0;
 
 void timer_init()
@@ -11,6 +10,7 @@ void timer_init()
     initContParam.clockSource = TIMER_A_CLOCKSOURCE_SMCLK;
     initContParam.clockSourceDivider = TIMER_A_CLOCKSOURCE_DIVIDER_1; 
     initContParam.timerInterruptEnable_TAIE = TIMER_A_TAIE_INTERRUPT_ENABLE;
+    // initContParam.timerInterruptEnable_TAIE = TIMER_A_TAIE_INTERRUPT_DISABLE;
     initContParam.timerClear = TIMER_A_DO_CLEAR;
     initContParam.startTimer = false;
     Timer_A_initContinuousMode(TIMER_A2_BASE, &initContParam);
