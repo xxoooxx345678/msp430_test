@@ -35,20 +35,19 @@ uint16_t initArrayTree(uint16_t size)
     int lt_size = size > 1 ? rand() % (size - 1) : 0;
     int rt_size = size - 1 - lt_size;
     
-    uint16_t tmp_node_array = node_id++;
+    uint16_t tmp_node_offset = node_id++;
 
-    uint16_t left_child_array = initArrayTree(lt_size);
-    uint16_t right_child_array = initArrayTree(rt_size);
+    uint16_t left_child_offset = initArrayTree(lt_size);
+    uint16_t right_child_offset = initArrayTree(rt_size);
 
-    ArrNode tmp;
-    tmp.child[0] = left_child_array;
-    tmp.child[1] = right_child_array;
-    Record rtmp = {tmp_node_array, tmp_node_array};
-    tmp.record = rtmp;
+    ArrNode tmp = {
+        .child = {left_child_offset, right_child_offset},
+        .record = {tmp_node_offset, tmp_node_offset}
+    };
 
-    FlashCtl_write8((uint8_t *)&tmp, (uint8_t *)&arrTree[tmp_node_array], sizeof(ArrNode));
+    FlashCtl_write8((uint8_t *)&tmp, (uint8_t *)&arrTree[tmp_node_offset], sizeof(ArrNode));
 
-    return tmp_node_array;
+    return tmp_node_offset;
 }
 
 PtrNode *initPtrTree(uint16_t size)
@@ -59,20 +58,19 @@ PtrNode *initPtrTree(uint16_t size)
     int lt_size = size > 1 ? rand() % (size - 1) : 0;
     int rt_size = size - 1 - lt_size;
     
-    uint16_t tmp_node_array = node_id++;
+    uint16_t tmp_node_offset = node_id++;
 
     PtrNode *left_child_ptr = initPtrTree(lt_size);
     PtrNode *right_child_ptr = initPtrTree(rt_size);
 
-    PtrNode tmp;
-    tmp.child[0] = left_child_ptr;
-    tmp.child[1] = right_child_ptr;
-    Record rtmp = {tmp_node_array, tmp_node_array};
-    tmp.record = rtmp;
+    PtrNode tmp = {
+        .child = {left_child_ptr, right_child_ptr},
+        .record = {tmp_node_offset, tmp_node_offset}
+    };
 
-    FlashCtl_write8((uint8_t *)&tmp, (uint8_t *)&ptrTree[tmp_node_array], sizeof(PtrNode));
+    FlashCtl_write8((uint8_t *)&tmp, (uint8_t *)&ptrTree[tmp_node_offset], sizeof(PtrNode));
 
-    return &ptrTree[tmp_node_array];
+    return &ptrTree[tmp_node_offset];
 }
 
 void arrTreeDFS(ArrNode *node)
