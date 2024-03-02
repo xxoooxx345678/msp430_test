@@ -1,8 +1,30 @@
 #include <msp430.h> 
+#include <driverlib.h>
 #include <stdlib.h>
 #include <time.h>
-#include <driverlib.h>
 #include "my_timer.h"
+
+void setupHW()
+{
+    WDT_A_hold( __MSP430_BASEADDRESS_WDT_A__ );
+
+    MPU_initTwoSegments(MPU_BASE, 0x400, MPU_READ | MPU_WRITE | MPU_EXEC, MPU_READ | MPU_WRITE | MPU_EXEC);
+
+	/* Set DCO frequency to 8 MHz. */
+	CS_setDCOFreq(CS_DCORSEL_0, CS_DCOFSEL_6);
+
+	/* Set external clock frequency to 32.768 KHz. */
+	CS_setExternalClockSource(32768, 0);
+
+	/* Set SMCLK = DCO with frequency divider of 1. */
+	CS_initClockSignal(CS_SMCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1);
+
+	/* Set MCLK = DCO with frequency divider of 1. */
+	CS_initClockSignal(CS_MCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1);
+
+	/* Disable the GPIO power-on default high-impedance mode. */
+	PMM_unlockLPM5();
+}
 
 typedef struct Record {
     uint8_t x;
@@ -19,8 +41,8 @@ typedef struct PtrNode {
     Record record;
 } PtrNode;
 
-#pragma DATA_SECTION(tree, ".tree");
-uint8_t tree[512]; 
+#pragma DATA_SECTION(tree, ".tree")
+uint8_t tree[1024]; 
 
 ArrNode * const arrTree = (ArrNode *)tree;
 PtrNode * const ptrTree = (PtrNode *)tree;
@@ -32,8 +54,8 @@ uint16_t initArrayTree(uint16_t size)
     if (size == 0)
         return (uint16_t)-1;
 
-    int lt_size = size > 1 ? rand() % (size - 1) : 0;
-    int rt_size = size - 1 - lt_size;
+    uint16_t lt_size = size > 1 ? rand() % (size - 1) : 0;
+    uint16_t rt_size = size - 1 - lt_size;
     
     uint16_t tmp_node_offset = node_id++;
 
@@ -45,7 +67,7 @@ uint16_t initArrayTree(uint16_t size)
         .record = {tmp_node_offset, tmp_node_offset}
     };
 
-    FlashCtl_write8((uint8_t *)&tmp, (uint8_t *)&arrTree[tmp_node_offset], sizeof(ArrNode));
+	arrTree[tmp_node_offset] = tmp;
 
     return tmp_node_offset;
 }
@@ -55,8 +77,8 @@ PtrNode *initPtrTree(uint16_t size)
     if (size == 0)
         return NULL;
 
-    int lt_size = size > 1 ? rand() % (size - 1) : 0;
-    int rt_size = size - 1 - lt_size;
+    uint16_t lt_size = size > 1 ? rand() % (size - 1) : 0;
+    uint16_t rt_size = size - 1 - lt_size;
     
     uint16_t tmp_node_offset = node_id++;
 
@@ -68,7 +90,7 @@ PtrNode *initPtrTree(uint16_t size)
         .record = {tmp_node_offset, tmp_node_offset}
     };
 
-    FlashCtl_write8((uint8_t *)&tmp, (uint8_t *)&ptrTree[tmp_node_offset], sizeof(PtrNode));
+	ptrTree[tmp_node_offset] = tmp;
 
     return &ptrTree[tmp_node_offset];
 }
@@ -94,10 +116,8 @@ void PtrTreeDFS(PtrNode *node)
  */
 int main(void)
 {
-	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
-    
-	UCS_initFLL(16000, 250); // Set SMCLK to 8MHz
-    
+	setupHW();
+
     timer_init(); // Init timer
     timer_start();
     uint32_t st, ed;
@@ -105,7 +125,6 @@ int main(void)
     /*-----------Array Tree-------------*/
 
     // Init arrTree
-    FlashCtl_eraseSegment(tree); 
     node_id = 0;
     initArrayTree(50);
 
@@ -114,12 +133,11 @@ int main(void)
     arrTreeDFS(arrTree);
     ed = get_current_tick();
 
-    volatile double array_elapsed_time = get_elasped_time(st, ed, UCS_getSMCLK());
+    volatile double array_elapsed_time = get_elasped_time(st, ed, CS_getSMCLK());
 
     /*----------Pointer Tree------------*/
 
     // Init ptrTree
-    FlashCtl_eraseSegment(tree);
     node_id = 0;
     initPtrTree(50);
 
@@ -128,7 +146,7 @@ int main(void)
     PtrTreeDFS(ptrTree);
     ed = get_current_tick();
 
-    volatile double ptr_elapsed_time = get_elasped_time(st, ed, UCS_getSMCLK());
+    volatile double ptr_elapsed_time = get_elasped_time(st, ed, CS_getSMCLK());
 
 	return 0;
 }
