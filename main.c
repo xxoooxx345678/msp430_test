@@ -25,26 +25,26 @@ uint16_t treeShape[256] = {0};
 uint16_t treeShape_id = 0;
 
 #pragma DATA_SECTION(tree, ".tree");
-uint8_t tree[512]; 
+uint8_t tree[512];
 
-ArrNode * const arrTree = (ArrNode *)tree;
-PtrNode * const ptrTree = (PtrNode *)tree;
+ArrNode *const arrTree = (ArrNode *)tree;
+PtrNode *const ptrTree = (PtrNode *)tree;
 
 uint16_t node_id = 0;
 
 void shapeTree(uint16_t size)
 {
-	if (size == 0)
-		return;
+    if (size == 0)
+        return;
 
-	uint16_t lt_size = size > 1 ? rand() % (size - 1) : 0;
-	uint16_t rt_size = size - 1 - lt_size;
+    uint16_t lt_size = size > 1 ? rand() % (size - 1) : 0;
+    uint16_t rt_size = size - 1 - lt_size;
 
-	treeShape[treeShape_id++] = lt_size; 
-	treeShape[treeShape_id++] = rt_size; 
+    treeShape[treeShape_id++] = lt_size;
+    treeShape[treeShape_id++] = rt_size;
 
-	shapeTree(lt_size);
-	shapeTree(rt_size);
+    shapeTree(lt_size);
+    shapeTree(rt_size);
 }
 
 uint16_t initArrayTree(uint16_t size)
@@ -77,7 +77,7 @@ PtrNode *initPtrTree(uint16_t size)
 
     uint16_t lt_size = treeShape[treeShape_id++];
     uint16_t rt_size = treeShape[treeShape_id++];
-    
+
     uint16_t tmp_node_offset = node_id++;
 
     PtrNode *left_child_ptr = initPtrTree(lt_size);
@@ -127,7 +127,7 @@ int main(void)
     /*-----------Array Tree-------------*/
 
     // Init arrTree
-    FlashCtl_eraseSegment(tree); 
+    FlashCtl_eraseSegment(tree);
     node_id = 0;
     treeShape_id = 0;
     initArrayTree(TREE_SIZE);
