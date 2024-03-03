@@ -4,6 +4,8 @@
 #include <driverlib.h>
 #include "my_timer.h"
 
+#define TREE_SIZE 50
+
 typedef struct Record {
     uint8_t x;
     uint8_t y;
@@ -19,6 +21,9 @@ typedef struct PtrNode {
     Record record;
 } PtrNode;
 
+uint16_t treeShape[256] = {0};
+uint16_t treeShape_id = 0;
+
 #pragma DATA_SECTION(tree, ".tree");
 uint8_t tree[512]; 
 
@@ -27,14 +32,29 @@ PtrNode * const ptrTree = (PtrNode *)tree;
 
 uint16_t node_id = 0;
 
+void shapeTree(uint16_t size)
+{
+	if (size == 0)
+		return;
+
+	uint16_t lt_size = size > 1 ? rand() % (size - 1) : 0;
+	uint16_t rt_size = size - 1 - lt_size;
+
+	treeShape[treeShape_id++] = lt_size; 
+	treeShape[treeShape_id++] = rt_size; 
+
+	shapeTree(lt_size);
+	shapeTree(rt_size);
+}
+
 uint16_t initArrayTree(uint16_t size)
 {
     if (size == 0)
         return (uint16_t)-1;
 
-    int lt_size = size > 1 ? rand() % (size - 1) : 0;
-    int rt_size = size - 1 - lt_size;
-    
+    uint16_t lt_size = treeShape[treeShape_id++];
+    uint16_t rt_size = treeShape[treeShape_id++];
+
     uint16_t tmp_node_offset = node_id++;
 
     uint16_t left_child_offset = initArrayTree(lt_size);
@@ -55,8 +75,8 @@ PtrNode *initPtrTree(uint16_t size)
     if (size == 0)
         return NULL;
 
-    int lt_size = size > 1 ? rand() % (size - 1) : 0;
-    int rt_size = size - 1 - lt_size;
+    uint16_t lt_size = treeShape[treeShape_id++];
+    uint16_t rt_size = treeShape[treeShape_id++];
     
     uint16_t tmp_node_offset = node_id++;
 
@@ -94,20 +114,23 @@ void PtrTreeDFS(PtrNode *node)
  */
 int main(void)
 {
-	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
-    
-	UCS_initFLL(16000, 250); // Set SMCLK to 8MHz
-    
+    WDTCTL = WDTPW | WDTHOLD; // stop watchdog timer
+
+    UCS_initFLL(16000, 250); // Set SMCLK to 8MHz
+
     timer_init(); // Init timer
     timer_start();
     uint32_t st, ed;
+
+    shapeTree(TREE_SIZE);
 
     /*-----------Array Tree-------------*/
 
     // Init arrTree
     FlashCtl_eraseSegment(tree); 
     node_id = 0;
-    initArrayTree(50);
+    treeShape_id = 0;
+    initArrayTree(TREE_SIZE);
 
     // Get elapsed time of array tree traversal
     st = get_current_tick();
@@ -121,7 +144,8 @@ int main(void)
     // Init ptrTree
     FlashCtl_eraseSegment(tree);
     node_id = 0;
-    initPtrTree(50);
+    treeShape_id = 0;
+    initPtrTree(TREE_SIZE);
 
     // Get elapsed time of pointer tree traversal
     st = get_current_tick();
@@ -130,5 +154,5 @@ int main(void)
 
     volatile double ptr_elapsed_time = get_elasped_time(st, ed, UCS_getSMCLK());
 
-	return 0;
+    return 0;
 }
