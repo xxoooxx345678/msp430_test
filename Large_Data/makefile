@@ -2,20 +2,17 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-CG_TOOL_ROOT := /home/teliao/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS
+SHELL = cmd.exe
+
+CG_TOOL_ROOT := C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
 
 ORDERED_OBJS += \
 "./LEDs.obj" \
-"./backup.obj" \
-"./checkpoint.obj" \
 "./main.obj" \
-"./my_timer.obj" \
 "./printf-stdarg.obj" \
-"./spi.obj" \
-"./spi_nand.obj" \
 "./Blinky_Demo/main_blinky.obj" \
 "./CCS_Only/RegTest.obj" \
 "./FreeRTOS_Source/croutine.obj" \
@@ -40,6 +37,9 @@ ORDERED_OBJS += \
 "./Full_Demo/Standard_Demo_Tasks/countsem.obj" \
 "./Full_Demo/Standard_Demo_Tasks/dynamic.obj" \
 "./Full_Demo/Standard_Demo_Tasks/recmutex.obj" \
+"./checkpoint/checkpoint.obj" \
+"./checkpoint/main_checkpoint.obj" \
+"./checkpoint/snapshot.obj" \
 "./driverlib/MSP430FR5xx_6xx/adc12_b.obj" \
 "./driverlib/MSP430FR5xx_6xx/aes256.obj" \
 "./driverlib/MSP430FR5xx_6xx/comp_e.obj" \
@@ -68,7 +68,9 @@ ORDERED_OBJS += \
 "./driverlib/MSP430FR5xx_6xx/timer_b.obj" \
 "./driverlib/MSP430FR5xx_6xx/tlv.obj" \
 "./driverlib/MSP430FR5xx_6xx/wdt_a.obj" \
-"./test/test.obj" \
+"./nand/spi.obj" \
+"./nand/spi_nand.obj" \
+"./timer/my_timer.obj" \
 "../lnk_msp430fr5994.cmd" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
@@ -76,8 +78,8 @@ $(GEN_CMDS__FLAG) \
 
 -include ../makefile.init
 
-RM := rm -rf
-RMDIR := rm -rf
+RM := DEL /F
+RMDIR := RMDIR /S/Q
 
 # All of the sources participating in the build are defined here
 -include sources.mk
@@ -90,8 +92,10 @@ RMDIR := rm -rf
 -include Full_Demo/FreeRTOS+CLI/subdir_vars.mk
 -include Full_Demo/subdir_vars.mk
 -include Full_Demo/Standard_Demo_Tasks/subdir_vars.mk
+-include checkpoint/subdir_vars.mk
 -include driverlib/MSP430FR5xx_6xx/subdir_vars.mk
--include test/subdir_vars.mk
+-include nand/subdir_vars.mk
+-include timer/subdir_vars.mk
 -include subdir_rules.mk
 -include Blinky_Demo/subdir_rules.mk
 -include CCS_Only/subdir_rules.mk
@@ -101,8 +105,10 @@ RMDIR := rm -rf
 -include Full_Demo/FreeRTOS+CLI/subdir_rules.mk
 -include Full_Demo/subdir_rules.mk
 -include Full_Demo/Standard_Demo_Tasks/subdir_rules.mk
+-include checkpoint/subdir_rules.mk
 -include driverlib/MSP430FR5xx_6xx/subdir_rules.mk
--include test/subdir_rules.mk
+-include nand/subdir_rules.mk
+-include timer/subdir_rules.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -218,26 +224,26 @@ all: RTOSDemo.out secondary-outputs
 RTOSDemo.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: MSP430 Linker'
-	"/home/teliao/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=large -O0 --use_hw_mpy=F5 --define=__MSP430FR5994__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"RTOSDemo.map" --heap_size=1024 --stack_size=0x400 --cinit_hold_wdt=on -i"/home/teliao/ti/ccs1040/ccs/ccs_base/msp430/include" -i"/home/teliao/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"/home/teliao/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" -i"/home/teliao/ti/ccs1040/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/home/teliao/ti/ccs1040/ccs/ccs_base/msp430/lib/FR59xx" --priority --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="RTOSDemo_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "RTOSDemo.out" $(ORDERED_OBJS)
+	"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/cl430" -vmspx --data_model=large --near_data=none -O0 --use_hw_mpy=F5 --define=__MSP430FR5994__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 -z -m"RTOSDemo.map" --heap_size=1024 --stack_size=1024 --cinit_hold_wdt=on -i"C:/ti/ccs1040/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/lib" -i"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/include" -i"C:/ti/ccs1040/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1040/ccs/ccs_base/msp430/lib/FR59xx" --priority --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="RTOSDemo_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "RTOSDemo.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 
 RTOSDemo.txt: $(EXE_OUTPUTS)
 	@echo 'Building secondary target: "$@"'
 	@echo 'Invoking: MSP430 Hex Utility'
-	"/home/teliao/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "RTOSDemo.txt" $(EXE_OUTPUTS__QUOTED)
+	"C:/ti/ccs1040/ccs/tools/compiler/ti-cgt-msp430_20.2.5.LTS/bin/hex430" --memwidth=8 --romwidth=8 --diag_wrap=off --ti_txt -o "RTOSDemo.txt" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building secondary target: "$@"'
 	@echo ' '
 
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "LEDs.obj" "backup.obj" "checkpoint.obj" "main.obj" "my_timer.obj" "printf-stdarg.obj" "spi.obj" "spi_nand.obj" "Blinky_Demo/main_blinky.obj" "CCS_Only/RegTest.obj" "FreeRTOS_Source/croutine.obj" "FreeRTOS_Source/event_groups.obj" "FreeRTOS_Source/list.obj" "FreeRTOS_Source/queue.obj" "FreeRTOS_Source/stream_buffer.obj" "FreeRTOS_Source/tasks.obj" "FreeRTOS_Source/timers.obj" "FreeRTOS_Source/portable/CCS/MSP430X/port.obj" "FreeRTOS_Source/portable/CCS/MSP430X/portext.obj" "FreeRTOS_Source/portable/MemMang/heap_4.obj" "Full_Demo/FreeRTOS+CLI/FreeRTOS_CLI.obj" "Full_Demo/Sample-CLI-commands.obj" "Full_Demo/UARTCommandConsole.obj" "Full_Demo/main_full.obj" "Full_Demo/serial.obj" "Full_Demo/Standard_Demo_Tasks/EventGroupsDemo.obj" "Full_Demo/Standard_Demo_Tasks/GenQTest.obj" "Full_Demo/Standard_Demo_Tasks/TaskNotify.obj" "Full_Demo/Standard_Demo_Tasks/blocktim.obj" "Full_Demo/Standard_Demo_Tasks/countsem.obj" "Full_Demo/Standard_Demo_Tasks/dynamic.obj" "Full_Demo/Standard_Demo_Tasks/recmutex.obj" 
-	-$(RM) "driverlib/MSP430FR5xx_6xx/adc12_b.obj" "driverlib/MSP430FR5xx_6xx/aes256.obj" "driverlib/MSP430FR5xx_6xx/comp_e.obj" "driverlib/MSP430FR5xx_6xx/crc.obj" "driverlib/MSP430FR5xx_6xx/crc32.obj" "driverlib/MSP430FR5xx_6xx/cs.obj" "driverlib/MSP430FR5xx_6xx/dma.obj" "driverlib/MSP430FR5xx_6xx/esi.obj" "driverlib/MSP430FR5xx_6xx/eusci_a_spi.obj" "driverlib/MSP430FR5xx_6xx/eusci_a_uart.obj" "driverlib/MSP430FR5xx_6xx/eusci_b_i2c.obj" "driverlib/MSP430FR5xx_6xx/eusci_b_spi.obj" "driverlib/MSP430FR5xx_6xx/framctl.obj" "driverlib/MSP430FR5xx_6xx/gpio.obj" "driverlib/MSP430FR5xx_6xx/lcd_c.obj" "driverlib/MSP430FR5xx_6xx/mpu.obj" "driverlib/MSP430FR5xx_6xx/mpy32.obj" "driverlib/MSP430FR5xx_6xx/pmm.obj" "driverlib/MSP430FR5xx_6xx/ram.obj" "driverlib/MSP430FR5xx_6xx/ref_a.obj" "driverlib/MSP430FR5xx_6xx/rtc_b.obj" "driverlib/MSP430FR5xx_6xx/rtc_c.obj" "driverlib/MSP430FR5xx_6xx/sfr.obj" "driverlib/MSP430FR5xx_6xx/sysctl.obj" "driverlib/MSP430FR5xx_6xx/timer_a.obj" "driverlib/MSP430FR5xx_6xx/timer_b.obj" 
-	-$(RM) "driverlib/MSP430FR5xx_6xx/tlv.obj" "driverlib/MSP430FR5xx_6xx/wdt_a.obj" "test/test.obj" 
-	-$(RM) "LEDs.d" "checkpoint.d" "main.d" "my_timer.d" "printf-stdarg.d" "spi.d" "spi_nand.d" "Blinky_Demo/main_blinky.d" "FreeRTOS_Source/croutine.d" "FreeRTOS_Source/event_groups.d" "FreeRTOS_Source/list.d" "FreeRTOS_Source/queue.d" "FreeRTOS_Source/stream_buffer.d" "FreeRTOS_Source/tasks.d" "FreeRTOS_Source/timers.d" "FreeRTOS_Source/portable/CCS/MSP430X/port.d" "FreeRTOS_Source/portable/MemMang/heap_4.d" "Full_Demo/FreeRTOS+CLI/FreeRTOS_CLI.d" "Full_Demo/Sample-CLI-commands.d" "Full_Demo/UARTCommandConsole.d" "Full_Demo/main_full.d" "Full_Demo/serial.d" "Full_Demo/Standard_Demo_Tasks/EventGroupsDemo.d" "Full_Demo/Standard_Demo_Tasks/GenQTest.d" "Full_Demo/Standard_Demo_Tasks/TaskNotify.d" "Full_Demo/Standard_Demo_Tasks/blocktim.d" "Full_Demo/Standard_Demo_Tasks/countsem.d" "Full_Demo/Standard_Demo_Tasks/dynamic.d" "Full_Demo/Standard_Demo_Tasks/recmutex.d" "driverlib/MSP430FR5xx_6xx/adc12_b.d" "driverlib/MSP430FR5xx_6xx/aes256.d" "driverlib/MSP430FR5xx_6xx/comp_e.d" "driverlib/MSP430FR5xx_6xx/crc.d" 
-	-$(RM) "driverlib/MSP430FR5xx_6xx/crc32.d" "driverlib/MSP430FR5xx_6xx/cs.d" "driverlib/MSP430FR5xx_6xx/dma.d" "driverlib/MSP430FR5xx_6xx/esi.d" "driverlib/MSP430FR5xx_6xx/eusci_a_spi.d" "driverlib/MSP430FR5xx_6xx/eusci_a_uart.d" "driverlib/MSP430FR5xx_6xx/eusci_b_i2c.d" "driverlib/MSP430FR5xx_6xx/eusci_b_spi.d" "driverlib/MSP430FR5xx_6xx/framctl.d" "driverlib/MSP430FR5xx_6xx/gpio.d" "driverlib/MSP430FR5xx_6xx/lcd_c.d" "driverlib/MSP430FR5xx_6xx/mpu.d" "driverlib/MSP430FR5xx_6xx/mpy32.d" "driverlib/MSP430FR5xx_6xx/pmm.d" "driverlib/MSP430FR5xx_6xx/ram.d" "driverlib/MSP430FR5xx_6xx/ref_a.d" "driverlib/MSP430FR5xx_6xx/rtc_b.d" "driverlib/MSP430FR5xx_6xx/rtc_c.d" "driverlib/MSP430FR5xx_6xx/sfr.d" "driverlib/MSP430FR5xx_6xx/sysctl.d" "driverlib/MSP430FR5xx_6xx/timer_a.d" "driverlib/MSP430FR5xx_6xx/timer_b.d" "driverlib/MSP430FR5xx_6xx/tlv.d" "driverlib/MSP430FR5xx_6xx/wdt_a.d" "test/test.d" 
-	-$(RM) "backup.d" "CCS_Only/RegTest.d" "FreeRTOS_Source/portable/CCS/MSP430X/portext.d" 
+	-$(RM) "LEDs.obj" "main.obj" "printf-stdarg.obj" "Blinky_Demo\main_blinky.obj" "CCS_Only\RegTest.obj" "FreeRTOS_Source\croutine.obj" "FreeRTOS_Source\event_groups.obj" "FreeRTOS_Source\list.obj" "FreeRTOS_Source\queue.obj" "FreeRTOS_Source\stream_buffer.obj" "FreeRTOS_Source\tasks.obj" "FreeRTOS_Source\timers.obj" "FreeRTOS_Source\portable\CCS\MSP430X\port.obj" "FreeRTOS_Source\portable\CCS\MSP430X\portext.obj" "FreeRTOS_Source\portable\MemMang\heap_4.obj" "Full_Demo\FreeRTOS+CLI\FreeRTOS_CLI.obj" "Full_Demo\Sample-CLI-commands.obj" "Full_Demo\UARTCommandConsole.obj" "Full_Demo\main_full.obj" "Full_Demo\serial.obj" "Full_Demo\Standard_Demo_Tasks\EventGroupsDemo.obj" "Full_Demo\Standard_Demo_Tasks\GenQTest.obj" "Full_Demo\Standard_Demo_Tasks\TaskNotify.obj" "Full_Demo\Standard_Demo_Tasks\blocktim.obj" "Full_Demo\Standard_Demo_Tasks\countsem.obj" "Full_Demo\Standard_Demo_Tasks\dynamic.obj" "Full_Demo\Standard_Demo_Tasks\recmutex.obj" "checkpoint\checkpoint.obj" "checkpoint\main_checkpoint.obj" "checkpoint\snapshot.obj" 
+	-$(RM) "driverlib\MSP430FR5xx_6xx\adc12_b.obj" "driverlib\MSP430FR5xx_6xx\aes256.obj" "driverlib\MSP430FR5xx_6xx\comp_e.obj" "driverlib\MSP430FR5xx_6xx\crc.obj" "driverlib\MSP430FR5xx_6xx\crc32.obj" "driverlib\MSP430FR5xx_6xx\cs.obj" "driverlib\MSP430FR5xx_6xx\dma.obj" "driverlib\MSP430FR5xx_6xx\esi.obj" "driverlib\MSP430FR5xx_6xx\eusci_a_spi.obj" "driverlib\MSP430FR5xx_6xx\eusci_a_uart.obj" "driverlib\MSP430FR5xx_6xx\eusci_b_i2c.obj" "driverlib\MSP430FR5xx_6xx\eusci_b_spi.obj" "driverlib\MSP430FR5xx_6xx\framctl.obj" "driverlib\MSP430FR5xx_6xx\gpio.obj" "driverlib\MSP430FR5xx_6xx\lcd_c.obj" "driverlib\MSP430FR5xx_6xx\mpu.obj" "driverlib\MSP430FR5xx_6xx\mpy32.obj" "driverlib\MSP430FR5xx_6xx\pmm.obj" "driverlib\MSP430FR5xx_6xx\ram.obj" "driverlib\MSP430FR5xx_6xx\ref_a.obj" "driverlib\MSP430FR5xx_6xx\rtc_b.obj" "driverlib\MSP430FR5xx_6xx\rtc_c.obj" "driverlib\MSP430FR5xx_6xx\sfr.obj" "driverlib\MSP430FR5xx_6xx\sysctl.obj" "driverlib\MSP430FR5xx_6xx\timer_a.obj" "driverlib\MSP430FR5xx_6xx\timer_b.obj" 
+	-$(RM) "driverlib\MSP430FR5xx_6xx\tlv.obj" "driverlib\MSP430FR5xx_6xx\wdt_a.obj" "nand\spi.obj" "nand\spi_nand.obj" "timer\my_timer.obj" 
+	-$(RM) "LEDs.d" "main.d" "printf-stdarg.d" "Blinky_Demo\main_blinky.d" "FreeRTOS_Source\croutine.d" "FreeRTOS_Source\event_groups.d" "FreeRTOS_Source\list.d" "FreeRTOS_Source\queue.d" "FreeRTOS_Source\stream_buffer.d" "FreeRTOS_Source\tasks.d" "FreeRTOS_Source\timers.d" "FreeRTOS_Source\portable\CCS\MSP430X\port.d" "FreeRTOS_Source\portable\MemMang\heap_4.d" "Full_Demo\FreeRTOS+CLI\FreeRTOS_CLI.d" "Full_Demo\Sample-CLI-commands.d" "Full_Demo\UARTCommandConsole.d" "Full_Demo\main_full.d" "Full_Demo\serial.d" "Full_Demo\Standard_Demo_Tasks\EventGroupsDemo.d" "Full_Demo\Standard_Demo_Tasks\GenQTest.d" "Full_Demo\Standard_Demo_Tasks\TaskNotify.d" "Full_Demo\Standard_Demo_Tasks\blocktim.d" "Full_Demo\Standard_Demo_Tasks\countsem.d" "Full_Demo\Standard_Demo_Tasks\dynamic.d" "Full_Demo\Standard_Demo_Tasks\recmutex.d" "checkpoint\checkpoint.d" "checkpoint\main_checkpoint.d" "driverlib\MSP430FR5xx_6xx\adc12_b.d" "driverlib\MSP430FR5xx_6xx\aes256.d" "driverlib\MSP430FR5xx_6xx\comp_e.d" "driverlib\MSP430FR5xx_6xx\crc.d" 
+	-$(RM) "driverlib\MSP430FR5xx_6xx\crc32.d" "driverlib\MSP430FR5xx_6xx\cs.d" "driverlib\MSP430FR5xx_6xx\dma.d" "driverlib\MSP430FR5xx_6xx\esi.d" "driverlib\MSP430FR5xx_6xx\eusci_a_spi.d" "driverlib\MSP430FR5xx_6xx\eusci_a_uart.d" "driverlib\MSP430FR5xx_6xx\eusci_b_i2c.d" "driverlib\MSP430FR5xx_6xx\eusci_b_spi.d" "driverlib\MSP430FR5xx_6xx\framctl.d" "driverlib\MSP430FR5xx_6xx\gpio.d" "driverlib\MSP430FR5xx_6xx\lcd_c.d" "driverlib\MSP430FR5xx_6xx\mpu.d" "driverlib\MSP430FR5xx_6xx\mpy32.d" "driverlib\MSP430FR5xx_6xx\pmm.d" "driverlib\MSP430FR5xx_6xx\ram.d" "driverlib\MSP430FR5xx_6xx\ref_a.d" "driverlib\MSP430FR5xx_6xx\rtc_b.d" "driverlib\MSP430FR5xx_6xx\rtc_c.d" "driverlib\MSP430FR5xx_6xx\sfr.d" "driverlib\MSP430FR5xx_6xx\sysctl.d" "driverlib\MSP430FR5xx_6xx\timer_a.d" "driverlib\MSP430FR5xx_6xx\timer_b.d" "driverlib\MSP430FR5xx_6xx\tlv.d" "driverlib\MSP430FR5xx_6xx\wdt_a.d" "nand\spi.d" "nand\spi_nand.d" "timer\my_timer.d" 
+	-$(RM) "CCS_Only\RegTest.d" "FreeRTOS_Source\portable\CCS\MSP430X\portext.d" "checkpoint\snapshot.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 

@@ -1,5 +1,5 @@
 /*
- * FreeRTOS V202111.00
+ * FreeRTOS V202107.00
  * Copyright (C) 2020 Amazon.com, Inc. or its affiliates.  All Rights Reserved.
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
@@ -56,13 +56,14 @@ functionality in an interrupt. */
 /* TI includes. */
 #include "driverlib.h"
 #include <stdio.h>
+
 #include "checkpoint.h"
 #include "my_timer.h"
-
+#include "spi_nand.h"
 
 /* Set mainCREATE_SIMPLE_BLINKY_DEMO_ONLY to one to run the simple blinky demo,
 or 0 to run the more comprehensive test and demo application. */
-#define mainCREATE_SIMPLE_BLINKY_DEMO_ONLY	1
+#define mainCREATE_SIMPLE_BLINKY_DEMO_ONLY	0
 
 /*-----------------------------------------------------------*/
 
@@ -76,10 +77,10 @@ static void prvSetupHardware( void );
  * main_full() is used when mainCREATE_SIMPLE_BLINKY_DEMO_ONLY is set to 0.
  */
 #if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
-	// extern void main_blinky( void );
-	extern void test_main( void );
+	extern void main_blinky( void );
 #else
-	extern void main_full( void );
+	// extern void main_full( void );
+	extern void main_checkpoint( void );
 #endif /* #if mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 */
 
 /* Prototypes for the standard FreeRTOS callback/hook functions implemented
@@ -99,35 +100,35 @@ See http://www.freertos.org/a00111.html for more information. */
 #endif
 uint8_t ucHeap[ configTOTAL_HEAP_SIZE ] = { 0 };
 
-#pragma PERSISTENT(backuped)
-uint8_t backuped = 0;
+extern DMA_initParam dma_param;
+
 /*-----------------------------------------------------------*/
+
 int main( void )
 {
 	/* See http://www.FreeRTOS.org/MSP430FR5969_Free_RTOS_Demo.html */
-	__enable_interrupt();
-	timer_init();
-	prvSetupHardware();
-    if (backuped == 1)
-    {
-        printf("restore\n\n");
-        restore();
-    }
-	timer_start();
+
 	/* Configure the hardware ready to run the demo. */
+	prvSetupHardware();
+
+	restore(); // Must be placed after HW setup since CLK, DMA, SPI need to be init.
+
+	timer_start();
+	if (spi_nand_init() != 0)
+	{
+		printf("SPI NAND CONNECTION FAILED.");
+		for (;;);
+	}
 
 	/* The mainCREATE_SIMPLE_BLINKY_DEMO_ONLY setting is described at the top
 	of this file. */
 	#if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
 	{
-		test_main();
-	    // main_blinky();
-
-	    while(1);
+		main_blinky();
 	}
 	#else
 	{
-		main_full();
+		main_checkpoint();
 	}
 	#endif
 
@@ -172,15 +173,15 @@ void vApplicationIdleHook( void )
 
 void vApplicationTickHook( void )
 {
-	#if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 0 )
-	{
-		/* Call the periodic event group from ISR demo. */
-		vPeriodicEventGroupsProcessing();
+	// #if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 0 )
+	// {
+	// 	/* Call the periodic event group from ISR demo. */
+	// 	vPeriodicEventGroupsProcessing();
 
-		/* Call the code that 'gives' a task notification from an ISR. */
-		xNotifyTaskFromISR();
-	}
-	#endif
+	// 	/* Call the code that 'gives' a task notification from an ISR. */
+	// 	xNotifyTaskFromISR();
+	// }
+	// #endif
 }
 /*-----------------------------------------------------------*/
 
@@ -222,25 +223,6 @@ static void prvSetupHardware( void )
     /* Stop Watchdog timer. */
     WDT_A_hold( __MSP430_BASEADDRESS_WDT_A__ );
 
-	/* Set all GPIO pins to output and low. */
-//	GPIO_setOutputLowOnPin( GPIO_PORT_P1, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 );
-//	GPIO_setOutputLowOnPin( GPIO_PORT_P2, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 );
-//	GPIO_setOutputLowOnPin( GPIO_PORT_P3, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 );
-//	GPIO_setOutputLowOnPin( GPIO_PORT_P4, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 );
-//	GPIO_setOutputLowOnPin( GPIO_PORT_PJ, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 | GPIO_PIN8 | GPIO_PIN9 | GPIO_PIN10 | GPIO_PIN11 | GPIO_PIN12 | GPIO_PIN13 | GPIO_PIN14 | GPIO_PIN15 );
-//	GPIO_setAsOutputPin( GPIO_PORT_P1, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 );
-//	GPIO_setAsOutputPin( GPIO_PORT_P2, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 );
-//	GPIO_setAsOutputPin( GPIO_PORT_P3, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 );
-//	GPIO_setAsOutputPin( GPIO_PORT_P4, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 );
-//	GPIO_setAsOutputPin( GPIO_PORT_PJ, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2 | GPIO_PIN3 | GPIO_PIN4 | GPIO_PIN5 | GPIO_PIN6 | GPIO_PIN7 | GPIO_PIN8 | GPIO_PIN9 | GPIO_PIN10 | GPIO_PIN11 | GPIO_PIN12 | GPIO_PIN13 | GPIO_PIN14 | GPIO_PIN15 );
-
-	// Jill modify
-    // Configure GPIO
-    P5SEL1 &= ~(BIT0 | BIT1 | BIT2);        // USCI_B1 SCLK, MOSI, and MISO pin
-    P5SEL0 |= (BIT0 | BIT1 | BIT2);
-//  PJSEL0 |= BIT4 | BIT5;                  // For XT1
-    GPIO_setAsOutputPin(GPIO_PORT_P4, GPIO_PIN1); //CE#
-
 	/* Set PJ.4 and PJ.5 for LFXT. */
 	GPIO_setAsPeripheralModuleFunctionInputPin(  GPIO_PORT_PJ, GPIO_PIN4 + GPIO_PIN5, GPIO_PRIMARY_MODULE_FUNCTION  );
 
@@ -265,18 +247,30 @@ static void prvSetupHardware( void )
 	/* Disable the GPIO power-on default high-impedance mode. */
 	PMM_unlockLPM5();
 
+	/* Setup DMA */
+	dma_param.channelSelect = DMA_CHANNEL_0;
+	dma_param.transferModeSelect = DMA_TRANSFER_BLOCK;
+    dma_param.transferUnitSelect = DMA_SIZE_SRCWORD_DSTWORD;
+    DMA_init(&dma_param);
 
+	/* Setup Timer */
+	timer_init();
 
-	GPIO_setOutputHighOnPin(GPIO_PORT_P4, GPIO_PIN1);
-
-    // Configure USCI_B1 for SPI operation
-    UCB1CTLW0 = UCSWRST;                    // **Put state machine in reset**
-    UCB1CTLW0 |= UCCKPH;                    // Clock phase
-    UCB1CTLW0 |= UCMSB;                     // MSB
-    UCB1CTLW0 |= UCMST;                     // SPI master
-    UCB1CTLW0 |= UCSYNC;                    // Synchronous
-    UCB1CTLW0 |= UCSSEL__SMCLK;             // 8Mhz
-    UCB1CTLW0 &= ~UCSWRST;                  // **Initialize USCI state machine**
+	/* Setup SPI */
+	GPIO_setAsPeripheralModuleFunctionInputPin(GPIO_PORT_P5, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2, GPIO_PRIMARY_MODULE_FUNCTION);
+	GPIO_setAsOutputPin(GPIO_PORT_P4, GPIO_PIN1);
+    GPIO_setOutputHighOnPin(GPIO_PORT_P4, GPIO_PIN1);
+	EUSCI_B_SPI_initMasterParam spi_init = {
+		.selectClockSource = EUSCI_B_SPI_CLOCKSOURCE_SMCLK,
+		.clockSourceFrequency = 8000000,
+		.desiredSpiClock = 8000000,
+		.msbFirst = EUSCI_B_SPI_MSB_FIRST,
+		.clockPhase = EUSCI_B_SPI_PHASE_DATA_CAPTURED_ONFIRST_CHANGED_ON_NEXT,
+		.clockPolarity = EUSCI_B_SPI_CLOCKPOLARITY_INACTIVITY_LOW,
+		.spiMode = EUSCI_B_SPI_3PIN
+	};
+	EUSCI_B_SPI_initMaster(EUSCI_B1_BASE, &spi_init);
+	EUSCI_B_SPI_enable(EUSCI_B1_BASE);
 }
 /*-----------------------------------------------------------*/
 

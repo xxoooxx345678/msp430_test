@@ -41,13 +41,10 @@
 //! @{
 //
 //*****************************************************************************
-
-#include "inc/hw_regaccess.h"
-#include "inc/hw_memmap.h"
-
 #define OFS_CRC16DIRBW1        (0x0014)       /* CRC16 Data In Reverse */
 #define OFS_CRC16DIRBW1_L      OFS_CRC16DIRBW1
-
+#include "inc/hw_regaccess.h"
+#include "inc/hw_memmap.h"
 
 #ifdef __MSP430_HAS_CRC32__
 #include "crc32.h"

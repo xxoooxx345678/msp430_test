@@ -3,8 +3,8 @@
 
 #include "FreeRTOS.h"
 
-// #define MT29F1G01ABAFDWB
-#define W25N01GVZEIG
+#define MT29F1G01ABAFDWB
+// #define W25N01GVZEIG
 
 #define CS_GPIO_PORT GPIO_PORT_P4
 #define CS_GPIO_PIN GPIO_PIN1

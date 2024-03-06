@@ -18,7 +18,7 @@ void timer_init()
     Timer_A_enableInterrupt(TIMER_A2_BASE);
 }
 
-double get_elasped_time(uint32_t start, uint32_t end, uint32_t TIMER_FREQ)
+double get_elapsed_time(uint32_t start, uint32_t end, uint32_t TIMER_FREQ)
 {
     return ((double)(end - start) / TIMER_FREQ);
 }

@@ -48,6 +48,8 @@
 #ifdef __MSP430_HAS_PMM_FRAM__
 #include "pmm.h"
 
+#define PMMLPRST               (0x0080)       /* PMM Low-Power Reset Enable */
+
 #include <assert.h>
 
 void PMM_enableLowPowerReset(void)

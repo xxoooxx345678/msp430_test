@@ -70,8 +70,6 @@
 // The following are defines for the base address of the peripherals.
 //
 //*****************************************************************************
-#define PMMLPRST               (0x0080)       /* PMM Low-Power Reset Enable */
-
 #ifdef __MSP430_HAS_ADC10_A__
                                                                         #define \
     ADC10_A_BASE    __MSP430_BASEADDRESS_ADC10_A__

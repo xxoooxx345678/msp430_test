@@ -200,8 +200,8 @@ int spi_nand_init()
     unlock_block();
     clear_all_blocks();
 
-    enable_ecc();
-//    disable_ecc();
+    // enable_ecc();
+   disable_ecc();
 
     return 0;
 }
@@ -477,13 +477,6 @@ int spi_nand_init()
         return 1;
 
     unlock_block();
-
-    uint8_t tmp = 12;
-    read_status_register(ADDRESS_PROTECTION_REGISTER, &tmp);
-
-    if (tmp != 0)
-        return 1;
-
     clear_all_blocks();
 
     return 0;

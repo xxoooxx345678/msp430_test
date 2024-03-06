@@ -205,10 +205,10 @@ SECTIONS
         .jtagpassword       : {}            /* JTAG Password                     */
     } > IPESIGNATURE
 
-    .bss        : {} > RAM          , START( __bss__   ),	END( __bssEnd__  )        /* Global & static vars              */
-    .data       : {} > RAM          , START( __data__  ),	END( __dataEnd__ )        /* Global & static vars              */
-    .TI.noinit  : {} > FRAM2 | FRAM         										  /* For #pragma noinit                */
-    .stack      : {} > RAM (HIGH)   , START( __stack__ ),	END( __stackEnd__)        /* Software system stack             */
+    .bss        : {} > RAM    , START(__bss__),    END(__bssEnd__)              /* Global & static vars              */
+    .data       : {} > RAM    , START(__data__),    END(__dataEnd__)             /* Global & static vars              */
+    .TI.noinit  : {} > FRAM                  /* For #pragma noinit                */
+    .stack      : {} > RAM (HIGH)    , START(__stack__),    END(__stackEnd__)           /* Software system stack             */
 
     .tinyram    : {} > TINYRAM              /* Tiny RAM                          */
 

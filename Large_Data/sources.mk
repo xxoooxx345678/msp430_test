@@ -120,6 +120,8 @@ FreeRTOS_Source/portable/MemMang \
 Full_Demo/FreeRTOS+CLI \
 Full_Demo \
 Full_Demo/Standard_Demo_Tasks \
+checkpoint \
 driverlib/MSP430FR5xx_6xx \
-test \
+nand \
+timer \
 
