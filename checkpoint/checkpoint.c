@@ -70,7 +70,7 @@ void restore()
     /*******************************************/
     portENTER_CRITICAL();
 
-    // tree_checkpoint();
+    // tree_restore();
 
     portEXIT_CRITICAL();
 
