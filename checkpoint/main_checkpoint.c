@@ -11,17 +11,23 @@
 #pragma PERSISTENT(shutdown_cnt)
 uint8_t shutdown_cnt = 4;
 
-static void test(void *pvParameters);
+static void test_op_based_power_event(void *pvParameters);
+static void test_time_based_power_event(void *pvParameters);
 
 void main_checkpoint(void)
 {
-    xTaskCreate(test, "test", configMINIMAL_STACK_SIZE, NULL, tskTEST_PRIORITY, NULL);
+#if (EXPERIMENT == OP_BASED_EXPERIMENT)
+    xTaskCreate(test_op_based_power_event, "test", configMINIMAL_STACK_SIZE, NULL, tskTEST_PRIORITY, NULL);
+#elif (EXPERIMENT == TIME_BASED_EXPERIMENT)
+    xTaskCreate(test_time_based_power_event, "test", configMINIMAL_STACK_SIZE, NULL, tskTEST_PRIORITY, NULL);
+#endif
+
     vTaskStartScheduler();
 
     for (;;);
 }
 
-static void test(void *pvParameters)
+static void test_op_based_power_event(void *pvParameters)
 {
     (void)pvParameters;
 
@@ -36,7 +42,7 @@ static void test(void *pvParameters)
         {
             --shutdown_cnt;
             shutdown();
-            
+
             /* SHOULD NOT EXECUTE CODE BELOW */
             printf("YOU DARE USE MY OWN SPELL AGAINST ME POTTER!!!");
         }
@@ -44,15 +50,15 @@ static void test(void *pvParameters)
         {
             --shutdown_cnt;
             shutdown();
-            
+
             /* SHOULD NOT EXECUTE CODE BELOW */
-            printf("YOU SHALL NOT PASS!!!");  
+            printf("YOU SHALL NOT PASS!!!");
         }
         if (i == 50 && shutdown_cnt == 2)
         {
             --shutdown_cnt;
             shutdown();
-            
+
             /* SHOULD NOT EXECUTE CODE BELOW */
             printf("I DON'T LIKE SAND.");
         }
@@ -60,7 +66,7 @@ static void test(void *pvParameters)
         {
             --shutdown_cnt;
             shutdown();
-            
+
             /* SHOULD NOT EXECUTE CODE BELOW */
             printf("WE NEED TO GO DEEPER.");
         }
@@ -68,6 +74,25 @@ static void test(void *pvParameters)
         printf("%d\n", i);
     }
 
+    for (;;);
+}
+
+static void test_time_based_power_event(void *pvParameters)
+{
+
+    uint32_t i = 1;
+
+    while (1)
+    {
+        if (i % 30 == 0)
+        {
+            checkpoint();
+            printf("CHECKPOINT AT i = %d\n", i);
+        }
+
+        printf("%d\n", i);
+        ++i;
+    }
 
     for (;;);
 }

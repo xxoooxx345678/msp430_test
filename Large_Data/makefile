@@ -218,7 +218,8 @@ BIN_OUTPUTS__QUOTED += \
 
 
 # All Target
-all: RTOSDemo.out secondary-outputs
+all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
+	@$(MAKE) --no-print-directory -Onone "RTOSDemo.out" secondary-outputs
 
 # Tool invocations
 RTOSDemo.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)

@@ -46,7 +46,7 @@ __interrupt void A2_ISR( void )
 	__bic_SR_register_on_exit( SCG1 + SCG0 + OSCOFF + CPUOFF );
 }
 
-// FreeRTOS uses A1 timer, need a interrupt vector to handle it
+// FreeRTOS demo uses A1 timer, need a interrupt vector to handle it
 #pragma vector=TIMER1_A1_VECTOR
 __interrupt void A1_ISR( void )
 {
