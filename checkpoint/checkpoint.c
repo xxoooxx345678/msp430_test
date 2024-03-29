@@ -18,9 +18,6 @@ Calendar rtc_calendar_param = {.Seconds = 0x59,
                                .Year = 0x0
                                };
 
-#pragma PERSISTENT(rtc_alarm_param)
-RTC_C_configureCalendarAlarmParam rtc_alarm_param = {.minutesAlarm = 0x1};
-
 extern uint8_t ucHeap[configTOTAL_HEAP_SIZE];
 
 extern void snapshotReg();
@@ -38,15 +35,21 @@ static void DMA_transfer(uint8_t *src, uint8_t *dst, size_t size)
 
 void shutdown()
 {
+    portENTER_CRITICAL();
+
+    RTC_C_disableInterrupt(RTC_C_BASE, RTC_C_TIME_EVENT_INTERRUPT + RTC_C_CLOCK_ALARM_INTERRUPT + RTC_C_CLOCK_READ_READY_INTERRUPT + RTC_C_OSCILLATOR_FAULT_INTERRUPT);
+    RTC_C_clearInterrupt(RTC_C_BASE, RTC_C_TIME_EVENT_INTERRUPT + RTC_C_CLOCK_ALARM_INTERRUPT + RTC_C_CLOCK_READ_READY_INTERRUPT + RTC_C_OSCILLATOR_FAULT_INTERRUPT);
     RTC_C_initCalendar(RTC_C_BASE, &rtc_calendar_param, RTC_C_FORMAT_BCD);
-    RTC_C_configureCalendarAlarm(RTC_C_BASE, &rtc_alarm_param);
+    RTC_C_setCalendarEvent(RTC_C_BASE, RTC_C_CALENDAREVENT_MINUTECHANGE);
+    RTC_C_enableInterrupt(RTC_C_BASE, RTC_C_TIME_EVENT_INTERRUPT);
 
     PMM_turnOffRegulator();
     PMM_disableSVSH();
 
-    RTC_C_enableInterrupt(RTC_C_BASE, RTC_C_CLOCK_ALARM_INTERRUPT);
     RTC_C_startClock(RTC_C_BASE);
     LPM4;
+
+    portEXIT_CRITICAL();
 }
 
 void checkpoint()
@@ -109,21 +112,36 @@ void restore()
 #pragma vector=RTC_VECTOR
 __interrupt void RTC_ISR( void )
 {
-    RTC_C_clearInterrupt(RTC_C_BASE, RTC_C_CLOCK_ALARM_INTERRUPT);
-    __no_operation();
+    RTC_C_clearInterrupt(RTC_C_BASE, RTC_C_TIME_EVENT_INTERRUPT + RTC_C_CLOCK_ALARM_INTERRUPT + RTC_C_CLOCK_READ_READY_INTERRUPT + RTC_C_OSCILLATOR_FAULT_INTERRUPT);
 }
 
 // For time based power event experiment
 #if (EXPERIMENT == TIME_BASED_EXPERIMENT)
 void setup_power_event_timer()
 {
+    Timer_A_initUpModeParam initUpParam = {0};
+    initUpParam.clockSource = TIMER_A_CLOCKSOURCE_ACLK;
 
+    /* To configure the power event interval, compute and set these two values down below */
+    initUpParam.clockSourceDivider = TIMER_A_CLOCKSOURCE_DIVIDER_2;
+    initUpParam.timerPeriod = (0xFFFF >> 1);
+
+    initUpParam.timerInterruptEnable_TAIE = TIMER_A_TAIE_INTERRUPT_ENABLE;
+    initUpParam.captureCompareInterruptEnable_CCR0_CCIE = TIMER_A_CCIE_CCR0_INTERRUPT_DISABLE;
+    initUpParam.timerClear = TIMER_A_DO_CLEAR;
+    initUpParam.startTimer = false;
+    Timer_A_initUpMode(TIMER_A3_BASE, &initUpParam);
+
+    Timer_A_clear(TIMER_A3_BASE);
+    Timer_A_startCounter(TIMER_A3_BASE, TIMER_A_UP_MODE);
 }
 
-#pragma vector=TIMER1_A1_VECTOR
-__interrupt void A1_ISR( void )
+#pragma vector=TIMER3_A1_VECTOR
+__interrupt void A3_ISR( void )
 {
-    TA1CTL &= ~TAIFG;
+    TA3CTL &= ~TAIFG;
+
+    shutdown();
 
     __bic_SR_register_on_exit( SCG1 + SCG0 + OSCOFF + CPUOFF );
 }

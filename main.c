@@ -48,7 +48,7 @@
 #include "semphr.h"
 
 /* Standard demo includes, used so the tick hook can exercise some FreeRTOS
-functionality in an interrupt. */
+ functionality in an interrupt. */
 #include "EventGroupsDemo.h"
 #include "TaskNotify.h"
 //#include "ParTest.h" /* LEDs - a historic name for "Parallel Port". */
@@ -62,7 +62,7 @@ functionality in an interrupt. */
 #include "spi_nand.h"
 
 /* Set mainCREATE_SIMPLE_BLINKY_DEMO_ONLY to one to run the simple blinky demo,
-or 0 to run the more comprehensive test and demo application. */
+ or 0 to run the more comprehensive test and demo application. */
 #define mainCREATE_SIMPLE_BLINKY_DEMO_ONLY	0
 
 /*-----------------------------------------------------------*/
@@ -70,7 +70,7 @@ or 0 to run the more comprehensive test and demo application. */
 /*
  * Configure the hardware as necessary to run this demo.
  */
-static void prvSetupHardware( void );
+static void prvSetupHardware(void);
 
 /*
  * main_blinky() is used when mainCREATE_SIMPLE_BLINKY_DEMO_ONLY is set to 1.
@@ -79,211 +79,217 @@ static void prvSetupHardware( void );
 #if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
 	extern void main_blinky( void );
 #else
-	// extern void main_full( void );
-	extern void main_checkpoint( void );
+// extern void main_full( void );
+extern void main_checkpoint(void);
 #endif /* #if mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 */
 
 /* Prototypes for the standard FreeRTOS callback/hook functions implemented
-within this file. */
-void vApplicationMallocFailedHook( void );
-void vApplicationIdleHook( void );
-void vApplicationStackOverflowHook( TaskHandle_t pxTask, char *pcTaskName );
-void vApplicationTickHook( void );
+ within this file. */
+void vApplicationMallocFailedHook(void);
+void vApplicationIdleHook(void);
+void vApplicationStackOverflowHook(TaskHandle_t pxTask, char *pcTaskName);
+void vApplicationTickHook(void);
 
 /* The heap is allocated here so the "persistent" qualifier can be used.  This
-requires configAPPLICATION_ALLOCATED_HEAP to be set to 1 in FreeRTOSConfig.h.
-See http://www.freertos.org/a00111.html for more information. */
+ requires configAPPLICATION_ALLOCATED_HEAP to be set to 1 in FreeRTOSConfig.h.
+ See http://www.freertos.org/a00111.html for more information. */
 #ifdef __ICC430__
 	__persistent 					/* IAR version. */
 #else
-	#pragma PERSISTENT( ucHeap ) 	/* CCS version. */
+#pragma PERSISTENT( ucHeap ) 	/* CCS version. */
 #endif
-uint8_t ucHeap[ configTOTAL_HEAP_SIZE ] = { 0 };
+uint8_t ucHeap[configTOTAL_HEAP_SIZE] = { 0 };
 
 extern DMA_initParam dma_param;
 
 /*-----------------------------------------------------------*/
 
-int main( void )
+int main(void)
 {
-	/* See http://www.FreeRTOS.org/MSP430FR5969_Free_RTOS_Demo.html */
+    /* See http://www.FreeRTOS.org/MSP430FR5969_Free_RTOS_Demo.html */
 
-	/* Configure the hardware ready to run the demo. */
-	prvSetupHardware();
+    /* Configure the hardware ready to run the demo. */
+    prvSetupHardware();
 
-	restore(); // Must be placed after HW setup since CLK, DMA, SPI need to be init.
+    restore(); // Must be placed after HW setup since CLK, DMA, SPI need to be init.
 
-	timer_start();
-	if (spi_nand_init() != 0)
-	{
-		printf("SPI NAND CONNECTION FAILED.");
-		for (;;);
-	}
+    timer_start();
+    if (spi_nand_init() != 0)
+    {
+        printf("SPI NAND CONNECTION FAILED.");
+        for (;;);
+    }
 
-	/* The mainCREATE_SIMPLE_BLINKY_DEMO_ONLY setting is described at the top
-	of this file. */
-	#if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
+    /* The mainCREATE_SIMPLE_BLINKY_DEMO_ONLY setting is described at the top
+     of this file. */
+#if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 1 )
 	{
 		main_blinky();
 	}
 	#else
-	{
-		main_checkpoint();
-	}
-	#endif
+    {
+        main_checkpoint();
+    }
+#endif
 
-	return 0;
+    return 0;
 }
 /*-----------------------------------------------------------*/
 
-void vApplicationMallocFailedHook( void )
+void vApplicationMallocFailedHook(void)
 {
-	/* Called if a call to pvPortMalloc() fails because there is insufficient
-	free memory available in the FreeRTOS heap.  pvPortMalloc() is called
-	internally by FreeRTOS API functions that create tasks, queues, software
-	timers, and semaphores.  The size of the FreeRTOS heap is set by the
-	configTOTAL_HEAP_SIZE configuration constant in FreeRTOSConfig.h. */
+    /* Called if a call to pvPortMalloc() fails because there is insufficient
+     free memory available in the FreeRTOS heap.  pvPortMalloc() is called
+     internally by FreeRTOS API functions that create tasks, queues, software
+     timers, and semaphores.  The size of the FreeRTOS heap is set by the
+     configTOTAL_HEAP_SIZE configuration constant in FreeRTOSConfig.h. */
 
-	/* Force an assert. */
-	configASSERT( ( volatile void * ) NULL );
+    /* Force an assert. */
+    configASSERT(( volatile void * ) NULL);
 }
 /*-----------------------------------------------------------*/
 
-void vApplicationStackOverflowHook( TaskHandle_t pxTask, char *pcTaskName )
+void vApplicationStackOverflowHook(TaskHandle_t pxTask, char *pcTaskName)
 {
-	( void ) pcTaskName;
-	( void ) pxTask;
+    (void) pcTaskName;
+    (void) pxTask;
 
-	/* Run time stack overflow checking is performed if
-	configCHECK_FOR_STACK_OVERFLOW is defined to 1 or 2.  This hook
-	function is called if a stack overflow is detected.
-	See http://www.freertos.org/Stacks-and-stack-overflow-checking.html */
+    /* Run time stack overflow checking is performed if
+     configCHECK_FOR_STACK_OVERFLOW is defined to 1 or 2.  This hook
+     function is called if a stack overflow is detected.
+     See http://www.freertos.org/Stacks-and-stack-overflow-checking.html */
 
-	/* Force an assert. */
-	configASSERT( ( volatile void * ) NULL );
+    /* Force an assert. */
+    configASSERT(( volatile void * ) NULL);
 }
 /*-----------------------------------------------------------*/
 
-void vApplicationIdleHook( void )
+void vApplicationIdleHook(void)
 {
-    __bis_SR_register( LPM4_bits + GIE );
+    __bis_SR_register( LPM4_bits + GIE);
     __no_operation();
 }
 /*-----------------------------------------------------------*/
 
-void vApplicationTickHook( void )
+void vApplicationTickHook(void)
 {
-	// #if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 0 )
-	// {
-	// 	/* Call the periodic event group from ISR demo. */
-	// 	vPeriodicEventGroupsProcessing();
+    // #if( mainCREATE_SIMPLE_BLINKY_DEMO_ONLY == 0 )
+    // {
+    // 	/* Call the periodic event group from ISR demo. */
+    // 	vPeriodicEventGroupsProcessing();
 
-	// 	/* Call the code that 'gives' a task notification from an ISR. */
-	// 	xNotifyTaskFromISR();
-	// }
-	// #endif
+    // 	/* Call the code that 'gives' a task notification from an ISR. */
+    // 	xNotifyTaskFromISR();
+    // }
+    // #endif
 }
 /*-----------------------------------------------------------*/
 
 /* The MSP430X port uses this callback function to configure its tick interrupt.
-This allows the application to choose the tick interrupt source.
-configTICK_VECTOR must also be set in FreeRTOSConfig.h to the correct
-interrupt vector for the chosen tick interrupt source.  This implementation of
-vApplicationSetupTimerInterrupt() generates the tick from timer A0, so in this
-case configTICK_VECTOR is set to TIMER0_A0_VECTOR. */
-void vApplicationSetupTimerInterrupt( void )
+ This allows the application to choose the tick interrupt source.
+ configTICK_VECTOR must also be set in FreeRTOSConfig.h to the correct
+ interrupt vector for the chosen tick interrupt source.  This implementation of
+ vApplicationSetupTimerInterrupt() generates the tick from timer A0, so in this
+ case configTICK_VECTOR is set to TIMER0_A0_VECTOR. */
+void vApplicationSetupTimerInterrupt(void)
 {
-const unsigned short usACLK_Frequency_Hz = 32768;
+    const unsigned short usACLK_Frequency_Hz = 32768;
 
-	/* Ensure the timer is stopped. */
-	TA0CTL = 0;
+    /* Ensure the timer is stopped. */
+    TA0CTL = 0;
 
-	/* Run the timer from the ACLK. */
-	TA0CTL = TASSEL_1;
+    /* Run the timer from the ACLK. */
+    TA0CTL = TASSEL_1;
 
-	/* Clear everything to start with. */
-	TA0CTL |= TACLR;
+    /* Clear everything to start with. */
+    TA0CTL |= TACLR;
 
-	/* Set the compare match value according to the tick rate we want. */
-	TA0CCR0 = usACLK_Frequency_Hz / configTICK_RATE_HZ;
+    /* Set the compare match value according to the tick rate we want. */
+    TA0CCR0 = usACLK_Frequency_Hz / configTICK_RATE_HZ;
 
-	/* Enable the interrupts. */
-	TA0CCTL0 = CCIE;
+    /* Enable the interrupts. */
+    TA0CCTL0 = CCIE;
 
-	/* Start up clean. */
-	TA0CTL |= TACLR;
+    /* Start up clean. */
+    TA0CTL |= TACLR;
 
-	/* Up mode. */
-	TA0CTL |= MC_1;
+    /* Up mode. */
+    TA0CTL |= MC_1;
 }
 /*-----------------------------------------------------------*/
 
-static void prvSetupHardware( void )
+static void prvSetupHardware(void)
 {
     /* Stop Watchdog timer. */
-    WDT_A_hold( __MSP430_BASEADDRESS_WDT_A__ );
+    WDT_A_hold( __MSP430_BASEADDRESS_WDT_A__);
 
-	/* Disable RTC */
-	RTC_C_holdClock(RTC_C_BASE);
+    /* Disable RTC */
+    RTC_C_holdClock(RTC_C_BASE);
 
 	/* Set PJ.4 and PJ.5 for LFXT. */
-	GPIO_setAsPeripheralModuleFunctionInputPin(  GPIO_PORT_PJ, GPIO_PIN4 + GPIO_PIN5, GPIO_PRIMARY_MODULE_FUNCTION  );
+	GPIO_setAsPeripheralModuleFunctionInputPin(GPIO_PORT_PJ,
+											   GPIO_PIN4 + GPIO_PIN5,
+											   GPIO_PRIMARY_MODULE_FUNCTION);
 
 	/* Set DCO frequency to 8 MHz. */
-	CS_setDCOFreq( CS_DCORSEL_0, CS_DCOFSEL_6 );
+    CS_setDCOFreq( CS_DCORSEL_0, CS_DCOFSEL_6);
 
-	/* Set external clock frequency to 32.768 KHz. */
-	CS_setExternalClockSource( 32768, 0 );
+    /* Set external clock frequency to 32.768 KHz. */
+    CS_setExternalClockSource(32768, 0);
 
-	/* Set ACLK = LFXT. */
-	CS_initClockSignal( CS_ACLK, CS_LFXTCLK_SELECT, CS_CLOCK_DIVIDER_1 );
+    /* Set ACLK = LFXT. */
+    CS_initClockSignal( CS_ACLK, CS_LFXTCLK_SELECT, CS_CLOCK_DIVIDER_1);
 
-	/* Set SMCLK = DCO with frequency divider of 1. */
-	CS_initClockSignal( CS_SMCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1 );
+    /* Set SMCLK = DCO with frequency divider of 1. */
+    CS_initClockSignal( CS_SMCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1);
 
-	/* Set MCLK = DCO with frequency divider of 1. */
-	CS_initClockSignal( CS_MCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1 );
+    /* Set MCLK = DCO with frequency divider of 1. */
+    CS_initClockSignal( CS_MCLK, CS_DCOCLK_SELECT, CS_CLOCK_DIVIDER_1);
 
-	/* Start XT1 with no time out. */
-	CS_turnOnLFXT( CS_LFXT_DRIVE_0 );
+    /* Start XT1 with no time out. */
+    CS_turnOnLFXT( CS_LFXT_DRIVE_0);
 
-	/* Disable the GPIO power-on default high-impedance mode. */
-	PMM_unlockLPM5();
+    /* Disable the GPIO power-on default high-impedance mode. */
+    PMM_unlockLPM5();
 
-	/* Setup DMA */
-	dma_param.channelSelect = DMA_CHANNEL_0;
-	dma_param.transferModeSelect = DMA_TRANSFER_BLOCK;
+    /* Setup DMA */
+    dma_param.channelSelect = DMA_CHANNEL_0;
+    dma_param.transferModeSelect = DMA_TRANSFER_BLOCK;
     dma_param.transferUnitSelect = DMA_SIZE_SRCWORD_DSTWORD;
     DMA_init(&dma_param);
 
-	/* Setup Timer */
-	timer_init();
+    /* Setup Timer */
+    timer_init();
 
-	/* Setup SPI */
-	GPIO_setAsPeripheralModuleFunctionInputPin(GPIO_PORT_P5, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2, GPIO_PRIMARY_MODULE_FUNCTION);
-	GPIO_setAsOutputPin(GPIO_PORT_P4, GPIO_PIN1);
+#if (EXPERIMENT == TIME_BASED_EXPERIMENT)
+    /* Power event Timer */
+    setup_power_event_timer();
+#endif
+
+    /* Setup SPI */
+    GPIO_setAsPeripheralModuleFunctionInputPin(
+            GPIO_PORT_P5, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2,
+            GPIO_PRIMARY_MODULE_FUNCTION);
+    GPIO_setAsOutputPin(GPIO_PORT_P4, GPIO_PIN1);
     GPIO_setOutputHighOnPin(GPIO_PORT_P4, GPIO_PIN1);
-	EUSCI_B_SPI_initMasterParam spi_init = {
-		.selectClockSource = EUSCI_B_SPI_CLOCKSOURCE_SMCLK,
-		.clockSourceFrequency = 8000000,
-		.desiredSpiClock = 8000000,
-		.msbFirst = EUSCI_B_SPI_MSB_FIRST,
-		.clockPhase = EUSCI_B_SPI_PHASE_DATA_CAPTURED_ONFIRST_CHANGED_ON_NEXT,
-		.clockPolarity = EUSCI_B_SPI_CLOCKPOLARITY_INACTIVITY_LOW,
-		.spiMode = EUSCI_B_SPI_3PIN
-	};
-	EUSCI_B_SPI_initMaster(EUSCI_B1_BASE, &spi_init);
-	EUSCI_B_SPI_enable(EUSCI_B1_BASE);
+    EUSCI_B_SPI_initMasterParam spi_init = {
+            .selectClockSource = EUSCI_B_SPI_CLOCKSOURCE_SMCLK,
+            .clockSourceFrequency = 8000000, .desiredSpiClock = 8000000,
+            .msbFirst = EUSCI_B_SPI_MSB_FIRST, .clockPhase =
+            EUSCI_B_SPI_PHASE_DATA_CAPTURED_ONFIRST_CHANGED_ON_NEXT,
+            .clockPolarity = EUSCI_B_SPI_CLOCKPOLARITY_INACTIVITY_LOW,
+            .spiMode = EUSCI_B_SPI_3PIN };
+    EUSCI_B_SPI_initMaster(EUSCI_B1_BASE, &spi_init);
+    EUSCI_B_SPI_enable(EUSCI_B1_BASE);
 }
 /*-----------------------------------------------------------*/
 
-int _system_pre_init( void )
+int _system_pre_init(void)
 {
     /* Stop Watchdog timer. */
-    WDT_A_hold( __MSP430_BASEADDRESS_WDT_A__ );
+    WDT_A_hold( __MSP430_BASEADDRESS_WDT_A__);
 
     /* Return 1 for segments to be initialised. */
     return 1;
 }
-
 

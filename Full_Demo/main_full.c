@@ -355,15 +355,15 @@ void vConfigureTimerForRunTimeStats( void )
 }
 /*-----------------------------------------------------------*/
 
-//#pragma vector=TIMER1_A1_VECTOR
-//__interrupt void v4RunTimeStatsTimerOverflow( void )
-//{
-//	TA1CTL &= ~TAIFG;
-//
-//	/* 16-bit overflow, so add 17th bit. */
-//	ulRunTimeCounterOverflows += 0x10000;
-//	__bic_SR_register_on_exit( SCG1 + SCG0 + OSCOFF + CPUOFF );
-//}
+#pragma vector=TIMER1_A1_VECTOR
+__interrupt void v4RunTimeStatsTimerOverflow( void )
+{
+	TA1CTL &= ~TAIFG;
+
+	/* 16-bit overflow, so add 17th bit. */
+	ulRunTimeCounterOverflows += 0x10000;
+	__bic_SR_register_on_exit( SCG1 + SCG0 + OSCOFF + CPUOFF );
+}
 
 
 

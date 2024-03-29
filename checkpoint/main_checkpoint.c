@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include "queue.h"
 #include "checkpoint.h"
+#include <driverlib.h>
 #include "my_timer.h"
 
 #define tskTEST_PRIORITY (tskIDLE_PRIORITY + 1)
@@ -11,8 +12,13 @@
 #pragma PERSISTENT(shutdown_cnt)
 uint8_t shutdown_cnt = 4;
 
+#if (EXPERIMENT == OP_BASED_EXPERIMENT)
 static void test_op_based_power_event(void *pvParameters);
+#endif
+
+#if (EXPERIMENT == TIME_BASED_EXPERIMENT)
 static void test_time_based_power_event(void *pvParameters);
+#endif
 
 void main_checkpoint(void)
 {
@@ -27,6 +33,7 @@ void main_checkpoint(void)
     for (;;);
 }
 
+#if (EXPERIMENT == OP_BASED_EXPERIMENT)
 static void test_op_based_power_event(void *pvParameters)
 {
     (void)pvParameters;
@@ -76,23 +83,26 @@ static void test_op_based_power_event(void *pvParameters)
 
     for (;;);
 }
+#endif
 
+#if (EXPERIMENT == TIME_BASED_EXPERIMENT)
+#pragma PERSISTENT(progress)
+uint32_t progress = 1;
 static void test_time_based_power_event(void *pvParameters)
 {
-
-    uint32_t i = 1;
-
     while (1)
     {
-        if (i % 30 == 0)
+        if (progress % 1000 == 0)
         {
+            printf("CHECKPOINT AT i = %u\n", progress);
             checkpoint();
-            printf("CHECKPOINT AT i = %d\n", i);
         }
 
-        printf("%d\n", i);
-        ++i;
+        ++progress;
+        __delay_cycles(1000);
+        /* printing "progress" here is strongly not recommended */
     }
 
     for (;;);
 }
+#endif
