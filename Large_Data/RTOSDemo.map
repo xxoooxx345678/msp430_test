@@ -1,7 +1,7 @@
 ******************************************************************************
                   MSP430 Linker PC v20.2.5                     
 ******************************************************************************
->> Linked Fri Mar 29 18:33:32 2024
+>> Linked Sat Mar 30 01:42:20 2024
 
 OUTPUT FILE NAME:   <RTOSDemo.out>
 ENTRY POINT SYMBOL: "_c_int00_noargs"  address: 0000c098
@@ -17,10 +17,10 @@ MEMORY CONFIGURATION
   INFOC                 00001880   00000080  00000000  00000080  RWIX
   INFOB                 00001900   00000080  00000000  00000080  RWIX
   INFOA                 00001980   00000080  00000000  00000080  RWIX
-  RAM                   00001c00   00001000  0000079c  00000864  RWIX
+  RAM                   00001c00   00001000  000007a0  00000860  RWIX
   LEARAM                00002c00   00000ec8  00000000  00000ec8  RWIX
   LEASTACK              00003ac8   00000138  00000000  00000138  RWIX
-  FRAM                  00004000   0000bf80  0000824c  00003d34  RWIX
+  FRAM                  00004000   0000bf80  0000824e  00003d32  RWIX
   JTAGSIGNATURE         0000ff80   00000004  00000004  00000000  RWIX  ffff 
   BSLSIGNATURE          0000ff84   00000004  00000004  00000000  RWIX  ffff 
   IPESIGNATURE          0000ff88   00000008  00000008  00000000  RWIX  ffff 
@@ -88,7 +88,7 @@ SECTION ALLOCATION MAP
  output                                  attributes/
 section   page    origin      length       input sections
 --------  ----  ----------  ----------   ----------------
-.data      0    00001c00    000001f8     UNINITIALIZED
+.data      0    00001c00    000001fc     UNINITIALIZED
                   00001c00    000000c8     rts430x_lc_ld_eabi.lib : defs.c.obj (.data:_ftable)
                   00001cc8    00000078                            : host_device.c.obj (.data:_device)
                   00001d40    0000003c                            : host_device.c.obj (.data:_stream)
@@ -101,28 +101,28 @@ section   page    origin      length       input sections
                   00001de4    00000004                            : exit_gvars.c.obj (.data:__TI_dtors_ptr)
                   00001de8    00000004                            : _lock.c.obj (.data:_lock)
                   00001dec    00000004                            : _lock.c.obj (.data:_unlock)
-                  00001df0    00000002     port.obj (.data)
-                  00001df2    00000002     rts430x_lc_ld_eabi.lib : defs.c.obj (.data)
-                  00001df4    00000002                            : exit.c.obj (.data)
-                  00001df6    00000002                            : memory.c.obj (.data)
+                  00001df0    00000004     main_checkpoint.obj (.data)
+                  00001df4    00000002     port.obj (.data)
+                  00001df6    00000002     rts430x_lc_ld_eabi.lib : defs.c.obj (.data)
+                  00001df8    00000002                            : exit.c.obj (.data)
+                  00001dfa    00000002                            : memory.c.obj (.data)
 
 .TI.persistent 
-*          0    00004000    0000785e     
+*          0    00004000    00007858     
                   00004000    00004042     checkpoint.obj (.TI.persistent:snapshot)
                   00008042    00003800     main.obj (.TI.persistent:ucHeap)
                   0000b842    0000000a     checkpoint.obj (.TI.persistent:dma_param)
                   0000b84c    00000008     checkpoint.obj (.TI.persistent:rtc_calendar_param)
-                  0000b854    00000006     main_checkpoint.obj (.TI.persistent)
-                  0000b85a    00000004     my_timer.obj (.TI.persistent)
+                  0000b854    00000004     my_timer.obj (.TI.persistent)
 
 .binit     0    00004000    00000000     
 
-.cio       0    0000b85e    00000120     UNINITIALIZED
-                  0000b85e    00000120     rts430x_lc_ld_eabi.lib : trgmsg.c.obj (.cio)
+.cio       0    0000b858    00000120     UNINITIALIZED
+                  0000b858    00000120     rts430x_lc_ld_eabi.lib : trgmsg.c.obj (.cio)
 
-.sysmem    0    0000b980    00000400     
-                  0000b980    00000008     rts430x_lc_ld_eabi.lib : memory.c.obj (.sysmem) [fill = 0]
-                  0000b988    000003f8     --HOLE-- [fill = 0]
+.sysmem    0    0000b978    00000400     
+                  0000b978    00000008     rts430x_lc_ld_eabi.lib : memory.c.obj (.sysmem) [fill = 0]
+                  0000b980    000003f8     --HOLE-- [fill = 0]
 
 .ipestruct 
 *          0    0000c000    00000000     UNINITIALIZED
@@ -135,11 +135,11 @@ section   page    origin      length       input sections
 .ipe:_isr 
 *          0    0000c000    00000000     UNINITIALIZED
 
-.cinit     0    0000c1d2    0000007a     
-                  0000c1d2    00000058     (.cinit..data.load) [load image, compression = lzss]
-                  0000c22a    0000000c     (__TI_handler_table)
-                  0000c236    00000006     (.cinit..bss.load) [load image, compression = zero_init]
-                  0000c23c    00000010     (__TI_cinit_table)
+.cinit     0    0000c1d2    0000007c     
+                  0000c1d2    0000005a     (.cinit..data.load) [load image, compression = lzss]
+                  0000c22c    0000000c     (__TI_handler_table)
+                  0000c238    00000006     (.cinit..bss.load) [load image, compression = zero_init]
+                  0000c23e    00000010     (__TI_cinit_table)
 
 .init_array 
 *          0    00004000    00000000     UNINITIALIZED
@@ -155,22 +155,22 @@ section   page    origin      length       input sections
                   0000c0f6    00000010     port.obj (.text:_isr:vTickISREntry)
                   0000c106    00000008     rts430x_lc_ld_eabi.lib : isr_trap.asm.obj (.text:_isr:__TI_ISR_TRAP)
 
-.bss       0    00001df8    000001a4     UNINITIALIZED
-                  00001df8    000000a0     (.common:__TI_tmpnams)
-                  00001e98    0000005a     tasks.obj (.bss:pxReadyTasksLists)
-                  00001ef2    00000012     timers.obj (.bss:xActiveTimerList1)
-                  00001f04    00000012     timers.obj (.bss:xActiveTimerList2)
-                  00001f16    00000012     tasks.obj (.bss:xDelayedTaskList1)
-                  00001f28    00000012     tasks.obj (.bss:xDelayedTaskList2)
-                  00001f3a    00000012     tasks.obj (.bss:xPendingReadyList)
-                  00001f4c    00000012     tasks.obj (.bss:xSuspendedTaskList)
-                  00001f5e    00000012     tasks.obj (.bss:xTasksWaitingTermination)
-                  00001f70    00000008     serial.obj (.bss)
-                  00001f78    00000008     tasks.obj (.bss)
-                  00001f80    00000008     timers.obj (.bss)
-                  00001f88    00000008     heap_4.obj (.bss:xStart)
-                  00001f90    00000008     (.common:parmbuf)
-                  00001f98    00000004     rts430x_lc_ld_eabi.lib : memory.c.obj (.bss)
+.bss       0    00001dfc    000001a4     UNINITIALIZED
+                  00001dfc    000000a0     (.common:__TI_tmpnams)
+                  00001e9c    0000005a     tasks.obj (.bss:pxReadyTasksLists)
+                  00001ef6    00000012     timers.obj (.bss:xActiveTimerList1)
+                  00001f08    00000012     timers.obj (.bss:xActiveTimerList2)
+                  00001f1a    00000012     tasks.obj (.bss:xDelayedTaskList1)
+                  00001f2c    00000012     tasks.obj (.bss:xDelayedTaskList2)
+                  00001f3e    00000012     tasks.obj (.bss:xPendingReadyList)
+                  00001f50    00000012     tasks.obj (.bss:xSuspendedTaskList)
+                  00001f62    00000012     tasks.obj (.bss:xTasksWaitingTermination)
+                  00001f74    00000008     serial.obj (.bss)
+                  00001f7c    00000008     tasks.obj (.bss)
+                  00001f84    00000008     timers.obj (.bss)
+                  00001f8c    00000008     heap_4.obj (.bss:xStart)
+                  00001f94    00000008     (.common:parmbuf)
+                  00001f9c    00000004     rts430x_lc_ld_eabi.lib : memory.c.obj (.bss)
 
 .stack     0    00002800    00000400     UNINITIALIZED
                   00002800    00000004     rts430x_lc_ld_eabi.lib : boot.c.obj (.stack)
@@ -541,10 +541,10 @@ MODULE SUMMARY
                                                              
     .\checkpoint\
        checkpoint.obj               712     18        16468  
-       main_checkpoint.obj          134     28        6      
+       main_checkpoint.obj          134     28        4      
        snapshot.obj                 144     0         0      
     +--+----------------------------+-------+---------+---------+
-       Total:                       990     46        16474  
+       Total:                       990     46        16472  
                                                              
     .\driverlib\MSP430FR5xx_6xx\
        rtc_c.obj                    426     0         0      
@@ -651,21 +651,21 @@ MODULE SUMMARY
                                                              
        Heap:                        0       0         1024   
        Stack:                       0       0         1024   
-       Linker Generated:            0       122       0      
+       Linker Generated:            0       124       0      
     +--+----------------------------+-------+---------+---------+
-       Grand Total:                 16630   394       34074  
+       Grand Total:                 16630   396       34072  
 
 
 LINKER GENERATED COPY TABLES
 
-__TI_cinit_table @ 0000c23c records: 2, size/record: 8, table size: 16
-	.data: load addr=0000c1d2, load size=00000058 bytes, run addr=00001c00, run size=000001f8 bytes, compression=lzss
-	.bss: load addr=0000c236, load size=00000006 bytes, run addr=00001df8, run size=000001a4 bytes, compression=zero_init
+__TI_cinit_table @ 0000c23e records: 2, size/record: 8, table size: 16
+	.data: load addr=0000c1d2, load size=0000005a bytes, run addr=00001c00, run size=000001fc bytes, compression=lzss
+	.bss: load addr=0000c238, load size=00000006 bytes, run addr=00001dfc, run size=000001a4 bytes, compression=zero_init
 
 
 LINKER GENERATED HANDLER TABLE
 
-__TI_handler_table @ 0000c22a records: 3, size/record: 4, table size: 12
+__TI_handler_table @ 0000c22c records: 3, size/record: 4, table size: 12
 	index: 0, handler: __TI_zero_init
 	index: 1, handler: __TI_decompress_lzss
 	index: 2, handler: __TI_decompress_none
@@ -2261,14 +2261,14 @@ address   name
 0000015d  WDTCTL_H                                  
 0000015c  WDTCTL_L                                  
 00013dfa  WDT_A_hold                                
-0000b85e  _CIOBUF_                                  
+0000b858  _CIOBUF_                                  
 00002c00  __STACK_END                               
 00000400  __STACK_SIZE                              
 00000400  __SYSMEM_SIZE                             
-0000c23c  __TI_CINIT_Base                           
-0000c24c  __TI_CINIT_Limit                          
-0000c22a  __TI_Handler_Table_Base                   
-0000c236  __TI_Handler_Table_Limit                  
+0000c23e  __TI_CINIT_Base                           
+0000c24e  __TI_CINIT_Limit                          
+0000c22c  __TI_Handler_Table_Base                   
+0000c238  __TI_Handler_Table_Limit                  
 0000c106  __TI_ISR_TRAP                             
 0001244e  __TI_auto_init_nobinit_nopinit_hold_wdt   
 00013720  __TI_cleanup                              
@@ -2278,8 +2278,8 @@ address   name
 00013e10  __TI_decompress_none                      
 00012c0c  __TI_doflush                              
 00001de4  __TI_dtors_ptr                            
-00001df4  __TI_enable_exit_profile_output           
-00001df2  __TI_ft_end                               
+00001df8  __TI_enable_exit_profile_output           
+00001df6  __TI_ft_end                               
 0000ffb4  __TI_int18                                
 0000ffb6  __TI_int19                                
 0000ffb8  __TI_int20                                
@@ -2321,14 +2321,14 @@ ffffffff  __TI_pprof_out_hndl
 ffffffff  __TI_prof_data_size                       
 ffffffff  __TI_prof_data_start                      
 000138fc  __TI_readmsg                              
-00001df8  __TI_tmpnams                              
+00001dfc  __TI_tmpnams                              
 00013756  __TI_writemsg                             
 000120d2  __TI_wrt_ok                               
 00013c00  __TI_zero_init_nomemset                   
-00001f9c  __bssEnd__                                
-00001df8  __bss__                                   
+00001fa0  __bssEnd__                                
+00001dfc  __bss__                                   
 ffffffff  __c_args__                                
-00001df8  __dataEnd__                               
+00001dfc  __dataEnd__                               
 00001c00  __data__                                  
 00013e68  __mspabi_divu                             
 00012f50  __mspabi_divul                            
@@ -2375,7 +2375,7 @@ ffffffff  __c_args__
 0000fffe  _reset_vector                             
 00002800  _stack                                    
 00001d40  _stream                                   
-0000b980  _sys_memory                               
+0000b978  _sys_memory                               
 00013fe4  _system_post_cinit                        
 00013f52  _system_pre_init                          
 00001dec  _unlock                                   
@@ -2389,7 +2389,7 @@ ffffffff  __c_args__
 00013f80  cs_drive_low                              
 00013eaa  disable_ecc                               
 0000b842  dma_param                                 
-0000b85a  elapsed_tick                              
+0000b854  elapsed_tick                              
 00013d66  erase_op                                  
 0001331e  exit                                      
 0001378c  finddevice                                
@@ -2409,10 +2409,10 @@ ffffffff  __c_args__
 000103c2  memalign                                  
 00013634  memcpy                                    
 00013c48  memset                                    
-00001f90  parmbuf                                   
+00001f94  parmbuf                                   
 00013d9a  poll_for_oip                              
 00013db2  printf                                    
-0000b856  progress                                  
+00001df0  progress                                  
 0000c000  prvUSCI_A0_ISR                            
 00011ea2  putc                                      
 00013f9e  putchar                                   
@@ -2428,7 +2428,6 @@ ffffffff  __c_args__
 00012fa8  setup_power_event_timer                   
 000111d6  setvbuf                                   
 000124c6  shutdown                                  
-0000b854  shutdown_cnt                              
 00004000  snapshot                                  
 00011f32  snapshotReg                               
 00013cdc  spi_nand_init                             
@@ -2445,7 +2444,7 @@ ffffffff  __c_args__
 00001dc4  ulRunTimeCounterOverflows                 
 000139f2  unlink                                    
 00013f28  unlock_block                              
-00001df0  usCriticalNesting                         
+00001df4  usCriticalNesting                         
 00001dc0  usRegTest1LoopCounter                     
 00001dc2  usRegTest2LoopCounter                     
 000136e6  uxListRemove                              
@@ -4054,14 +4053,15 @@ address   name
 00001de4  __TI_dtors_ptr                            
 00001de8  _lock                                     
 00001dec  _unlock                                   
-00001df0  usCriticalNesting                         
-00001df2  __TI_ft_end                               
-00001df4  __TI_enable_exit_profile_output           
-00001df8  __TI_tmpnams                              
-00001df8  __bss__                                   
-00001df8  __dataEnd__                               
-00001f90  parmbuf                                   
-00001f9c  __bssEnd__                                
+00001df0  progress                                  
+00001df4  usCriticalNesting                         
+00001df6  __TI_ft_end                               
+00001df8  __TI_enable_exit_profile_output           
+00001dfc  __TI_tmpnams                              
+00001dfc  __bss__                                   
+00001dfc  __dataEnd__                               
+00001f94  parmbuf                                   
+00001fa0  __bssEnd__                                
 00002800  __stack__                                 
 00002800  _stack                                    
 00002c00  __STACK_END                               
@@ -4071,11 +4071,9 @@ address   name
 00008042  ucHeap                                    
 0000b842  dma_param                                 
 0000b84c  rtc_calendar_param                        
-0000b854  shutdown_cnt                              
-0000b856  progress                                  
-0000b85a  elapsed_tick                              
-0000b85e  _CIOBUF_                                  
-0000b980  _sys_memory                               
+0000b854  elapsed_tick                              
+0000b858  _CIOBUF_                                  
+0000b978  _sys_memory                               
 0000c000  fram_ipe_end                              
 0000c000  fram_ipe_start                            
 0000c000  fram_rx_start                             
@@ -4088,10 +4086,10 @@ address   name
 0000c0f6  vTickISREntry                             
 0000c106  __TI_ISR_TRAP                             
 0000c1ce  uxTopUsedPriority                         
-0000c22a  __TI_Handler_Table_Base                   
-0000c236  __TI_Handler_Table_Limit                  
-0000c23c  __TI_CINIT_Base                           
-0000c24c  __TI_CINIT_Limit                          
+0000c22c  __TI_Handler_Table_Base                   
+0000c238  __TI_Handler_Table_Limit                  
+0000c23e  __TI_CINIT_Base                           
+0000c24e  __TI_CINIT_Limit                          
 0000ffb4  __TI_int18                                
 0000ffb6  __TI_int19                                
 0000ffb8  __TI_int20                                
@@ -4316,4 +4314,4 @@ ffffffff  __TI_prof_data_size
 ffffffff  __TI_prof_data_start                      
 ffffffff  __c_args__                                
 
-[1817 symbols]
+[1816 symbols]

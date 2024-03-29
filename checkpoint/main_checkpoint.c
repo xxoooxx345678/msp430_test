@@ -86,7 +86,7 @@ static void test_op_based_power_event(void *pvParameters)
 #endif
 
 #if (EXPERIMENT == TIME_BASED_EXPERIMENT)
-#pragma PERSISTENT(progress)
+/* Add "progress" to expression and set breakpoint at A3_ISR & restore to check their functionalities */
 uint32_t progress = 1;
 static void test_time_based_power_event(void *pvParameters)
 {
@@ -94,8 +94,8 @@ static void test_time_based_power_event(void *pvParameters)
     {
         if (progress % 1000 == 0)
         {
-            printf("CHECKPOINT AT i = %u\n", progress);
             checkpoint();
+            printf("CHECKPOINT AT i = %u\n", progress);
         }
 
         ++progress;
