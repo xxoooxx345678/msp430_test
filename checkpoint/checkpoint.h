@@ -10,7 +10,7 @@
 #define SNAPSHOT_OPTIMIZATION
 
 enum COMMIT_STATUS {
-    COMMIT_INCOMPLETE = 0x87, // Do we even need this ?
+    COMMIT_INCOMPLETE = 0x87, 
     COMMIT_COMPLETE   = 0xAA
 };
 
@@ -41,7 +41,7 @@ typedef struct Snapshot {
 
     /* informations */
     uint32_t timestamp;
-    uint8_t commit_flag;
+    uint8_t status;
 } Snapshot;
 
 
