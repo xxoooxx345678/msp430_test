@@ -3,7 +3,9 @@
 #include <stdio.h>
 
 #pragma PERSISTENT(snapshot)
-Snapshot snapshot = {0};
+Snapshot snapshot[SNAPSHOT_SLOT_COUNT] = {0};
+
+void *snapshot_asm;
 
 #pragma PERSISTENT(dma_param)
 DMA_initParam dma_param = {0};
@@ -52,17 +54,52 @@ void shutdown()
     portEXIT_CRITICAL();
 }
 
+static Snapshot* find_next_open_snapshot_slot()
+{
+    Snapshot *ret = &snapshot;
+
+    uint32_t min_timestamp = UINT32_MAX;
+    uint8_t snapshot_idx;
+    Snapshot *snapshot_ptr;
+
+    for (snapshot_idx = 0; snapshot_idx < SNAPSHOT_SLOT_COUNT; ++snapshot_idx)
+    {
+        snapshot_ptr = &snapshot[snapshot_idx];
+        if (snapshot_ptr->commit_flag != COMMIT_COMPLETE)
+        {
+            ret = snapshot_ptr;
+            break;
+        }
+        else
+        {
+            if (snapshot_ptr->timestamp < min_timestamp)
+            {
+                min_timestamp = snapshot_ptr->timestamp;
+                ret = snapshot_ptr;
+            }
+        }
+    }
+
+    return ret;
+}
+
 void checkpoint()
 {
+    Snapshot *snapshot_ptr = find_next_open_snapshot_slot();
+    snapshot_asm = snapshot_ptr;
+    snapshot_ptr->commit_flag = COMMIT_INCOMPLETE;
+    extern uint32_t progress;
+    snapshot_ptr->timestamp = progress;
+
     /*******************************************/
     /*              Program space              */
     /*******************************************/
     portENTER_CRITICAL();
 
     /* Backup SRAM and registers */
-    DMA_transfer((uint8_t *)__bss__, (uint8_t *)snapshot.bss, BSS_SIZE);
-    DMA_transfer((uint8_t *)__data__, (uint8_t *)snapshot.data, DATA_SIZE);
-    DMA_transfer((uint8_t *)ucHeap, (uint8_t *)snapshot.heap, configTOTAL_HEAP_SIZE);
+    DMA_transfer((uint8_t *)__bss__, (uint8_t *)snapshot_ptr->bss, BSS_SIZE);
+    DMA_transfer((uint8_t *)__data__, (uint8_t *)snapshot_ptr->data, DATA_SIZE);
+    DMA_transfer((uint8_t *)ucHeap, (uint8_t *)snapshot_ptr->heap, UCHEAP_SIZE);
     snapshotReg();
 
     portEXIT_CRITICAL();
@@ -77,12 +114,35 @@ void checkpoint()
     portEXIT_CRITICAL();
 
     /* Commit completion flag */
-    snapshot.commit_flag = COMMIT_COMPLETE;
+    snapshot_ptr->commit_flag = COMMIT_COMPLETE;
+}
+
+static Snapshot* find_latest_complete_snapshot_slot()
+{
+    Snapshot *ret = NULL;
+
+    uint32_t max_timestamp = 0;
+    uint8_t snapshot_idx;
+    Snapshot *snapshot_ptr;
+
+    for (snapshot_idx = 0; snapshot_idx < SNAPSHOT_SLOT_COUNT; ++snapshot_idx)
+    {
+        snapshot_ptr = &snapshot[snapshot_idx];
+        if (snapshot_ptr->commit_flag == COMMIT_COMPLETE && snapshot_ptr->timestamp > max_timestamp)
+        {
+            ret = snapshot_ptr;
+            break;
+        }
+    }
+
+    return ret;
 }
 
 void restore()
 {
-    if (snapshot.commit_flag != COMMIT_COMPLETE)
+    Snapshot *snapshot_ptr = find_latest_complete_snapshot_slot();
+    snapshot_asm = snapshot_ptr;
+    if (snapshot_ptr == NULL)
         return;
 
     /*******************************************/
@@ -100,9 +160,9 @@ void restore()
     portENTER_CRITICAL();
 
     /* Restore SRAM and registers */
-    DMA_transfer((uint8_t *)snapshot.bss, (uint8_t *)__bss__, BSS_SIZE);
-    DMA_transfer((uint8_t *)snapshot.data, (uint8_t *)__data__, DATA_SIZE);
-    DMA_transfer((uint8_t *)snapshot.heap, (uint8_t *)ucHeap, configTOTAL_HEAP_SIZE);
+    DMA_transfer((uint8_t *)snapshot_ptr->bss, (uint8_t *)__bss__, BSS_SIZE);
+    DMA_transfer((uint8_t *)snapshot_ptr->data, (uint8_t *)__data__, DATA_SIZE);
+    DMA_transfer((uint8_t *)snapshot_ptr->heap, (uint8_t *)ucHeap, UCHEAP_SIZE);
     restoreReg();
 
     /* Never reach here */

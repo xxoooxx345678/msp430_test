@@ -226,6 +226,8 @@ int erase_op(uint16_t row)
     block_erase((row >> 6) << 6);
 
     write_disable();
+
+    return 0;
 }
 
 int read_op(uint16_t row, uint16_t col, uint8_t *data_out, size_t read_len)

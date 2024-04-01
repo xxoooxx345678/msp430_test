@@ -5,7 +5,7 @@
         #include "FreeRTOS.h"
     %}
 
-    .global snapshot
+    .global snapshot_asm 
 
     .def snapshotReg
     .def restoreReg
@@ -19,23 +19,28 @@ snapshotReg: .asmfunc
     dint
     nop
 
-    mov_x       sp,     &(snapshot + 4)
-    mov_x       sr,     &(snapshot + 8)
-    mov_x       r3,     &(snapshot + 12)
-    mov_x       r4,     &(snapshot + 16)
-    mov_x       r5,     &(snapshot + 20)
-    mov_x       r6,     &(snapshot + 24)
-    mov_x       r7,     &(snapshot + 28)
-    mov_x       r8,     &(snapshot + 32)
-    mov_x       r9,     &(snapshot + 36)
-    mov_x       r10,    &(snapshot + 40)
-    mov_x       r11,    &(snapshot + 44)
-    mov_x       r12,    &(snapshot + 48)
-    mov_x       r13,    &(snapshot + 52)
-    mov_x       r14,    &(snapshot + 56)
-    mov_x       r15,    &(snapshot + 60)
+    pushm_x     #13,    r15     ; Push R3 - R15
+    push_x      sr              ; Push R2
 
-    mov_x       pc,     &snapshot ; Program starts from here after restore.
+    mov_x       &snapshot_asm,  r9
+    
+    mov_x       @sp+,     8(r9)
+    mov_x       @sp+,    12(r9) 
+    mov_x       @sp+,    16(r9) 
+    mov_x       @sp+,    20(r9) 
+    mov_x       @sp+,    24(r9) 
+    mov_x       @sp+,    28(r9) 
+    mov_x       @sp+,    32(r9) 
+    mov_x       @sp+,    36(r9) 
+    mov_x       @sp+,    40(r9) 
+    mov_x       @sp+,    44(r9) 
+    mov_x       @sp+,    48(r9) 
+    mov_x       @sp+,    52(r9) 
+    mov_x       @sp+,    56(r9) 
+    mov_x       @sp+,    60(r9) 
+
+    mov_x        sp,     4(r9)
+    mov_x        pc,     0(r9)
 
     ret_x
     .endasmfunc
@@ -48,27 +53,28 @@ restoreReg: .asmfunc
     dint
     nop
 
-    mov_x       &(snapshot + 4),    sp
+    mov_x       &snapshot_asm, r9
+    push_x      r9
 
-    nop
-    mov_x       &(snapshot + 8),    sr
-    nop
+;    push_x       0(r9)       
+    push_x       4(r9)
+    push_x      60(r9)
+    push_x      56(r9)
+    push_x      52(r9)
+    push_x      48(r9)
+    push_x      44(r9)
+    push_x      40(r9)
+    push_x      36(r9)
+    push_x      32(r9)
+    push_x      28(r9)
+    push_x      24(r9)
+    push_x      20(r9)
+    push_x      16(r9)
+    push_x      12(r9)
+    push_x       8(r9)
 
-    mov_x       &(snapshot + 12),   r3
-    mov_x       &(snapshot + 16),   r4
-    mov_x       &(snapshot + 20),   r5
-    mov_x       &(snapshot + 24),   r6
-    mov_x       &(snapshot + 28),   r7
-    mov_x       &(snapshot + 32),   r8
-    mov_x       &(snapshot + 36),   r9
-    mov_x       &(snapshot + 40),   r10
-    mov_x       &(snapshot + 44),   r11
-    mov_x       &(snapshot + 48),   r12
-    mov_x       &(snapshot + 52),   r13
-    mov_x       &(snapshot + 56),   r14
-    mov_x       &(snapshot + 60),   r15
-
-    mov_x       &snapshot,          pc
+    popm_x      #14, r15
+    mov_x       @sp, sp
 
     ret_x
     .endasmfunc

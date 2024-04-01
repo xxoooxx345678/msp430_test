@@ -33,19 +33,19 @@ void main_checkpoint(void)
     for (;;);
 }
 
+uint32_t progress = 1;
 #if (EXPERIMENT == OP_BASED_EXPERIMENT)
 static void test_op_based_power_event(void *pvParameters)
 {
     (void)pvParameters;
 
-    uint16_t i;
 
-    for (i = 1; i < 100; ++i)
+    for (progress = 1; progress < 100; ++progress)
     {
-        if (i == 30)
+        if (progress == 30)
             checkpoint();
 
-        if (i == 20 && shutdown_cnt == 4)
+        if (progress == 20 && shutdown_cnt == 4)
         {
             --shutdown_cnt;
             shutdown();
@@ -53,7 +53,7 @@ static void test_op_based_power_event(void *pvParameters)
             /* SHOULD NOT EXECUTE CODE BELOW */
             printf("YOU DARE USE MY OWN SPELL AGAINST ME POTTER!!!");
         }
-        if (i == 40 && shutdown_cnt == 3)
+        if (progress == 40 && shutdown_cnt == 3)
         {
             --shutdown_cnt;
             shutdown();
@@ -61,7 +61,7 @@ static void test_op_based_power_event(void *pvParameters)
             /* SHOULD NOT EXECUTE CODE BELOW */
             printf("YOU SHALL NOT PASS!!!");
         }
-        if (i == 50 && shutdown_cnt == 2)
+        if (progress == 50 && shutdown_cnt == 2)
         {
             --shutdown_cnt;
             shutdown();
@@ -69,7 +69,7 @@ static void test_op_based_power_event(void *pvParameters)
             /* SHOULD NOT EXECUTE CODE BELOW */
             printf("I DON'T LIKE SAND.");
         }
-        if (i == 99 && shutdown_cnt == 1)
+        if (progress == 99 && shutdown_cnt == 1)
         {
             --shutdown_cnt;
             shutdown();
@@ -78,7 +78,7 @@ static void test_op_based_power_event(void *pvParameters)
             printf("WE NEED TO GO DEEPER.");
         }
 
-        printf("%d\n", i);
+        printf("%d\n", progress);
     }
 
     for (;;);
@@ -87,7 +87,6 @@ static void test_op_based_power_event(void *pvParameters)
 
 #if (EXPERIMENT == TIME_BASED_EXPERIMENT)
 /* Add "progress" to expression and set breakpoint at A3_ISR & restore to check their functionalities */
-uint32_t progress = 1;
 static void test_time_based_power_event(void *pvParameters)
 {
     while (1)
@@ -95,7 +94,7 @@ static void test_time_based_power_event(void *pvParameters)
         if (progress % 1000 == 0)
         {
             checkpoint();
-            printf("CHECKPOINT AT i = %u\n", progress);
+            printf("CHECKPOINT AT i = %u\n", progress); // Will be printed after restore
         }
 
         ++progress;

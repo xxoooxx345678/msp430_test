@@ -268,17 +268,18 @@ static void prvSetupHardware(void)
 
     /* Setup SPI */
     GPIO_setAsPeripheralModuleFunctionInputPin(
-            GPIO_PORT_P5, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2,
-            GPIO_PRIMARY_MODULE_FUNCTION);
+        GPIO_PORT_P5, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2,
+        GPIO_PRIMARY_MODULE_FUNCTION);
     GPIO_setAsOutputPin(GPIO_PORT_P4, GPIO_PIN1);
     GPIO_setOutputHighOnPin(GPIO_PORT_P4, GPIO_PIN1);
     EUSCI_B_SPI_initMasterParam spi_init = {
-            .selectClockSource = EUSCI_B_SPI_CLOCKSOURCE_SMCLK,
-            .clockSourceFrequency = 8000000, .desiredSpiClock = 8000000,
-            .msbFirst = EUSCI_B_SPI_MSB_FIRST, .clockPhase =
-            EUSCI_B_SPI_PHASE_DATA_CAPTURED_ONFIRST_CHANGED_ON_NEXT,
-            .clockPolarity = EUSCI_B_SPI_CLOCKPOLARITY_INACTIVITY_LOW,
-            .spiMode = EUSCI_B_SPI_3PIN };
+        .selectClockSource = EUSCI_B_SPI_CLOCKSOURCE_SMCLK,
+        .clockSourceFrequency = 8000000,
+        .desiredSpiClock = 8000000,
+        .msbFirst = EUSCI_B_SPI_MSB_FIRST,
+        .clockPhase = EUSCI_B_SPI_PHASE_DATA_CAPTURED_ONFIRST_CHANGED_ON_NEXT,
+        .clockPolarity = EUSCI_B_SPI_CLOCKPOLARITY_INACTIVITY_LOW,
+        .spiMode = EUSCI_B_SPI_3PIN};
     EUSCI_B_SPI_initMaster(EUSCI_B1_BASE, &spi_init);
     EUSCI_B_SPI_enable(EUSCI_B1_BASE);
 }

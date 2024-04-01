@@ -150,7 +150,6 @@ SECTIONS
         GROUP(READ_WRITE_MEMORY)
         {
 
-            .TI.persistent : {}              /* For #pragma persistent            */
             .cio           : {}              /* C I/O Buffer                      */
             .sysmem        : {}              /* Dynamic memory allocation area    */
         } PALIGN(0x0400), RUN_START(fram_rw_start)
@@ -205,6 +204,7 @@ SECTIONS
         .jtagpassword       : {}            /* JTAG Password                     */
     } > IPESIGNATURE
 
+    .TI.persistent : {} > FRAM2             /* For #pragma persistent            */
     .bss        : {} > RAM    , START(__bss__),    END(__bssEnd__)              /* Global & static vars              */
     .data       : {} > RAM    , START(__data__),    END(__dataEnd__)             /* Global & static vars              */
     .TI.noinit  : {} > FRAM                  /* For #pragma noinit                */
