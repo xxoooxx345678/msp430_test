@@ -85,15 +85,25 @@ static Snapshot* find_next_open_snapshot_slot()
 
 void checkpoint()
 {
+    /*******************************************/
+    /*              Storage space              */
+    /*******************************************/
+    portENTER_CRITICAL();
+
+    // tree_checkpoint();
+
+    portEXIT_CRITICAL();
+
+    /*******************************************/
+    /*              Program space              */
+    /*******************************************/
+
     Snapshot *open_snapshot = find_next_open_snapshot_slot();
     snapshot_reg = open_snapshot;
     open_snapshot->status = COMMIT_INCOMPLETE;
     extern uint32_t progress;
     open_snapshot->timestamp = progress;
 
-    /*******************************************/
-    /*              Program space              */
-    /*******************************************/
     portENTER_CRITICAL();
 
     /* Backup SRAM and registers */
@@ -101,15 +111,6 @@ void checkpoint()
     DMA_transfer((uint8_t *)__data__, (uint8_t *)open_snapshot->data, DATA_SIZE);
     DMA_transfer((uint8_t *)ucHeap, (uint8_t *)open_snapshot->heap, UCHEAP_SIZE);
     snapshotReg();
-
-    portEXIT_CRITICAL();
-
-    /*******************************************/
-    /*              Storage space              */
-    /*******************************************/
-    portENTER_CRITICAL();
-
-    // tree_checkpoint();
 
     portEXIT_CRITICAL();
 
