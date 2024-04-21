@@ -56,15 +56,14 @@ void shutdown()
 
 static Snapshot* find_next_open_snapshot_slot()
 {
-    Snapshot *ret = &snapshot;
+    Snapshot *ret = &snapshot[0];
+    Snapshot *snapshot_ptr = &snapshot[0];
 
     uint32_t min_timestamp = UINT32_MAX;
     uint8_t snapshot_idx;
-    Snapshot *snapshot_ptr;
 
     for (snapshot_idx = 0; snapshot_idx < SNAPSHOT_SLOT_COUNT; ++snapshot_idx)
     {
-        snapshot_ptr = &snapshot[snapshot_idx];
         if (snapshot_ptr->status != COMMIT_COMPLETE)
         {
             ret = snapshot_ptr;
@@ -78,6 +77,8 @@ static Snapshot* find_next_open_snapshot_slot()
                 ret = snapshot_ptr;
             }
         }
+
+        ++snapshot_ptr;
     }
 
     return ret;
@@ -85,6 +86,9 @@ static Snapshot* find_next_open_snapshot_slot()
 
 void checkpoint()
 {
+    Snapshot *open_snapshot = find_next_open_snapshot_slot();
+    open_snapshot->status = COMMIT_INCOMPLETE;
+
     /*******************************************/
     /*              Storage space              */
     /*******************************************/
@@ -98,9 +102,7 @@ void checkpoint()
     /*              Program space              */
     /*******************************************/
 
-    Snapshot *open_snapshot = find_next_open_snapshot_slot();
-    snapshot_reg = open_snapshot;
-    open_snapshot->status = COMMIT_INCOMPLETE;
+    snapshot_reg = &open_snapshot->registers;
     extern uint32_t progress;
     open_snapshot->timestamp = progress;
 
@@ -121,19 +123,20 @@ void checkpoint()
 static Snapshot* find_latest_complete_snapshot_slot()
 {
     Snapshot *ret = NULL;
+    Snapshot *snapshot_ptr = &snapshot[0];
 
     uint32_t max_timestamp = 0;
     uint8_t snapshot_idx;
-    Snapshot *snapshot_ptr;
 
     for (snapshot_idx = 0; snapshot_idx < SNAPSHOT_SLOT_COUNT; ++snapshot_idx)
     {
-        snapshot_ptr = &snapshot[snapshot_idx];
         if (snapshot_ptr->status == COMMIT_COMPLETE && snapshot_ptr->timestamp > max_timestamp)
         {
             ret = snapshot_ptr;
             max_timestamp = snapshot_ptr->timestamp;
         }
+
+        ++snapshot_ptr;
     }
 
     return ret;
@@ -142,9 +145,10 @@ static Snapshot* find_latest_complete_snapshot_slot()
 void restore()
 {
     Snapshot *latest_snapshot = find_latest_complete_snapshot_slot();
-    snapshot_reg = latest_snapshot;
     if (latest_snapshot == NULL)
         return;
+
+    snapshot_reg = &latest_snapshot->registers;
 
     /*******************************************/
     /*              Storage space              */
@@ -184,8 +188,8 @@ void setup_power_event_timer()
     initUpParam.clockSource = TIMER_A_CLOCKSOURCE_ACLK;
 
     /* To configure the power event interval, compute and set these two values down below */
-    initUpParam.clockSourceDivider = TIMER_A_CLOCKSOURCE_DIVIDER_2;
-    initUpParam.timerPeriod = (0xFFFF >> 1);
+    initUpParam.clockSourceDivider = TIMER_A_CLOCKSOURCE_DIVIDER_32;
+    initUpParam.timerPeriod = (CS_getACLK() >> 5) * POWER_EVENT_INTERVAL;
 
     initUpParam.timerInterruptEnable_TAIE = TIMER_A_TAIE_INTERRUPT_ENABLE;
     initUpParam.captureCompareInterruptEnable_CCR0_CCIE = TIMER_A_CCIE_CCR0_INTERRUPT_DISABLE;

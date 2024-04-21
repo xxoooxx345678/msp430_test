@@ -56,6 +56,7 @@
 /* TI includes. */
 #include "driverlib.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 #include "checkpoint.h"
 #include "my_timer.h"

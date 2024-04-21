@@ -204,10 +204,10 @@ SECTIONS
         .jtagpassword       : {}            /* JTAG Password                     */
     } > IPESIGNATURE
 
-    .TI.persistent : {} > FRAM2             /* For #pragma persistent            */
-    .bss        : {} > RAM    , START(__bss__),    END(__bssEnd__)              /* Global & static vars              */
-    .data       : {} > RAM    , START(__data__),    END(__dataEnd__)             /* Global & static vars              */
-    .TI.noinit  : {} > FRAM                  /* For #pragma noinit                */
+    .TI.persistent : {} > FRAM2             									/* For #pragma persistent            */
+    .bss        : {} > RAM    	     , START(__bss__),    END(__bssEnd__)              /* Global & static vars              */
+    .data       : {} > RAM    		 , START(__data__),    END(__dataEnd__)            /* Global & static vars              */
+    .TI.noinit  : {} > FRAM2                  									/* For #pragma noinit                */
     .stack      : {} > RAM (HIGH)    , START(__stack__),    END(__stackEnd__)           /* Software system stack             */
 
     .tinyram    : {} > TINYRAM              /* Tiny RAM                          */
@@ -217,7 +217,6 @@ SECTIONS
     .infoB : type = NOINIT{} > INFOB
     .infoC : type = NOINIT{} > INFOC
     .infoD : type = NOINIT{} > INFOD
-
 
     .leaRAM      : {} > LEARAM               /* LEA RAM                           */
     .leaStack    : {} > LEASTACK (HIGH)      /* LEA STACK                         */

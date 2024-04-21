@@ -7,7 +7,6 @@
 #include "my_timer.h"
 
 #define tskTEST_PRIORITY (tskIDLE_PRIORITY + 1)
-#define tskTEST_DELAY (pdMS_TO_TICKS(1000))
 
 #pragma PERSISTENT(shutdown_cnt)
 uint8_t shutdown_cnt = 4;
@@ -33,14 +32,14 @@ void main_checkpoint(void)
     for (;;);
 }
 
-uint32_t progress = 1;
+uint32_t progress;
 #if (EXPERIMENT == OP_BASED_EXPERIMENT)
 static void test_op_based_power_event(void *pvParameters)
 {
     (void)pvParameters;
 
 
-    for (progress = 1; progress < 100; ++progress)
+    for (progress = 1; progress <= 100; ++progress)
     {
         if (progress == 30)
             checkpoint();
@@ -89,6 +88,8 @@ static void test_op_based_power_event(void *pvParameters)
 /* Add "progress" to expression and set breakpoint at A3_ISR & restore to check their functionalities */
 static void test_time_based_power_event(void *pvParameters)
 {
+    progress = 1;
+
     while (1)
     {
         if (progress % 1000 == 0)
