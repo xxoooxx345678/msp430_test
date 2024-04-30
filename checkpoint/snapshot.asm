@@ -19,9 +19,9 @@ snapshotReg: .asmfunc
     dint
     nop
 
-    pushm_x     #14,    r15             ; Push R2 - R15
+    pushm_x     #14, r15             ; Push R2 - R15
 
-    mov_x       &snapshot_reg,  r9      
+    mov_x       &snapshot_reg, r9      
 
     pop_x        8(r9)
     pop_x       12(r9) 
@@ -38,7 +38,9 @@ snapshotReg: .asmfunc
     pop_x       56(r9) 
     pop_x       60(r9) 
     
-    mov_x       sp,     4(r9)
+    mov_x       sp, 4(r9)
+
+    mov_x       36(r9), r9
 
     ret_x
     .endasmfunc
