@@ -114,7 +114,6 @@ int main(void)
 
     restore(); // Must be placed after HW setup since CLK, DMA, SPI need to be init.
 
-    timer_start();
     if (spi_nand_init() != 0)
     {
         printf("SPI NAND CONNECTION FAILED.");
@@ -261,6 +260,10 @@ static void prvSetupHardware(void)
 
     /* Setup Timer */
     timer_init();
+    timer_start();
+
+    /* Setup FreeRTOS tick timer */
+    vApplicationSetupTimerInterrupt();
 
 #if (EXPERIMENT == TIME_BASED_EXPERIMENT)
     /* Power event Timer */
