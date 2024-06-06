@@ -65,7 +65,7 @@ __persistent keyword to be used.  See http://www.freertos.org/a00111.html#heap_4
 #define configUSE_TICK_HOOK				1
 #define configUSE_IDLE_HOOK				1
 #define configUSE_MALLOC_FAILED_HOOK	1
-#define configCHECK_FOR_STACK_OVERFLOW	2
+#define configCHECK_FOR_STACK_OVERFLOW	0
 
 /* Software timer related definitions. */
 #define configUSE_TIMERS				1

@@ -117,7 +117,8 @@ int main(void)
     if (spi_nand_init() != 0)
     {
         printf("SPI NAND CONNECTION FAILED.");
-        for (;;);
+        for (;;)
+            ;
     }
 
     /* The mainCREATE_SIMPLE_BLINKY_DEMO_ONLY setting is described at the top
@@ -226,12 +227,12 @@ static void prvSetupHardware(void)
     /* Disable RTC */
     RTC_C_holdClock(RTC_C_BASE);
 
-	/* Set PJ.4 and PJ.5 for LFXT. */
-	GPIO_setAsPeripheralModuleFunctionInputPin(GPIO_PORT_PJ,
-											   GPIO_PIN4 + GPIO_PIN5,
-											   GPIO_PRIMARY_MODULE_FUNCTION);
+    /* Set PJ.4 and PJ.5 for LFXT. */
+    GPIO_setAsPeripheralModuleFunctionInputPin(GPIO_PORT_PJ,
+    GPIO_PIN4 + GPIO_PIN5,
+                                               GPIO_PRIMARY_MODULE_FUNCTION);
 
-	/* Set DCO frequency to 8 MHz. */
+    /* Set DCO frequency to 8 MHz. */
     CS_setDCOFreq( CS_DCORSEL_0, CS_DCOFSEL_6);
 
     /* Set external clock frequency to 32.768 KHz. */
@@ -272,20 +273,30 @@ static void prvSetupHardware(void)
 
     /* Setup SPI */
     GPIO_setAsPeripheralModuleFunctionInputPin(
-        GPIO_PORT_P5, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2,
-        GPIO_PRIMARY_MODULE_FUNCTION);
+            GPIO_PORT_P5, GPIO_PIN0 | GPIO_PIN1 | GPIO_PIN2,
+            GPIO_PRIMARY_MODULE_FUNCTION);
     GPIO_setAsOutputPin(GPIO_PORT_P4, GPIO_PIN1);
     GPIO_setOutputHighOnPin(GPIO_PORT_P4, GPIO_PIN1);
     EUSCI_B_SPI_initMasterParam spi_init = {
-        .selectClockSource = EUSCI_B_SPI_CLOCKSOURCE_SMCLK,
-        .clockSourceFrequency = 8000000,
-        .desiredSpiClock = 8000000,
-        .msbFirst = EUSCI_B_SPI_MSB_FIRST,
-        .clockPhase = EUSCI_B_SPI_PHASE_DATA_CAPTURED_ONFIRST_CHANGED_ON_NEXT,
-        .clockPolarity = EUSCI_B_SPI_CLOCKPOLARITY_INACTIVITY_LOW,
-        .spiMode = EUSCI_B_SPI_3PIN};
+            .selectClockSource = EUSCI_B_SPI_CLOCKSOURCE_SMCLK,
+            .clockSourceFrequency = 8000000, .desiredSpiClock = 8000000,
+            .msbFirst = EUSCI_B_SPI_MSB_FIRST, .clockPhase =
+            EUSCI_B_SPI_PHASE_DATA_CAPTURED_ONFIRST_CHANGED_ON_NEXT,
+            .clockPolarity = EUSCI_B_SPI_CLOCKPOLARITY_INACTIVITY_LOW,
+            .spiMode = EUSCI_B_SPI_3PIN };
     EUSCI_B_SPI_initMaster(EUSCI_B1_BASE, &spi_init);
     EUSCI_B_SPI_enable(EUSCI_B1_BASE);
+
+    /* Button P5.6 */
+    GPIO_selectInterruptEdge(GPIO_PORT_P5, GPIO_PIN6, GPIO_HIGH_TO_LOW_TRANSITION);
+    GPIO_clearInterrupt(GPIO_PORT_P5, GPIO_PIN6);
+    GPIO_enableInterrupt(GPIO_PORT_P5, GPIO_PIN6);
+    GPIO_setAsInputPinWithPullUpResistor(GPIO_PORT_P5, GPIO_PIN6);
+
+    /* LED 1.0 */
+    GPIO_setAsOutputPin(GPIO_PORT_P1, GPIO_PIN0);
+    GPIO_setOutputLowOnPin(GPIO_PORT_P1, GPIO_PIN0);
+
 }
 /*-----------------------------------------------------------*/
 
