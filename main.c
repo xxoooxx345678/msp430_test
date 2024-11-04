@@ -114,12 +114,7 @@ int main(void)
 
     restore(); // Must be placed after HW setup since CLK, DMA, SPI need to be init.
 
-    if (spi_nand_init() != 0)
-    {
-        printf("SPI NAND CONNECTION FAILED.");
-        for (;;)
-            ;
-    }
+    clear_all_blocks();
 
     /* The mainCREATE_SIMPLE_BLINKY_DEMO_ONLY setting is described at the top
      of this file. */
@@ -297,6 +292,7 @@ static void prvSetupHardware(void)
     GPIO_setAsOutputPin(GPIO_PORT_P1, GPIO_PIN0);
     GPIO_setOutputLowOnPin(GPIO_PORT_P1, GPIO_PIN0);
 
+    spi_nand_init();
 }
 /*-----------------------------------------------------------*/
 

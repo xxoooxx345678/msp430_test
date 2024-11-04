@@ -198,7 +198,7 @@ int spi_nand_init()
         return 1;
     
     unlock_block();
-    clear_all_blocks();
+    // clear_all_blocks();
 
     // enable_ecc();
    disable_ecc();
@@ -479,7 +479,7 @@ int spi_nand_init()
         return 1;
 
     unlock_block();
-    clear_all_blocks();
+    // clear_all_blocks();
 
     return 0;
 }
