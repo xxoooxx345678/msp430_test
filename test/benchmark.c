@@ -45,7 +45,7 @@ double fram_latency_read(uint32_t read_cnt)
         fram_buffer[i] = i;
  
     volatile uint32_t st, ed;
-    volatile uint32_t tmp = (read_cnt / 2) / 8192;
+    volatile uint32_t tmp = ((read_cnt / 2) / 128) / 256;
 
     volatile uint32_t elapsed_time = 0;
 
@@ -66,7 +66,7 @@ double fram_latency_write(uint32_t write_cnt)
 {
     volatile uint32_t i;
     volatile uint32_t st, ed;
-    volatile uint32_t tmp = (write_cnt / 2) / 8192;
+    volatile uint32_t tmp = ((write_cnt / 2) / 128) / 256;
 
     volatile uint32_t elapsed_time = 0;
 
